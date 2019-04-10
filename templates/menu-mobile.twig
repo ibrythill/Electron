@@ -1,0 +1,19 @@
+<div class="menu-wrap hidden-md-min">
+	<nav class="menu">
+		<div class="icon-list">
+			{% if menu %}
+			<ul class="mobile_menu">
+			{% if logo %}<li class="logo"><a href="{{ site.url }}"><img style="max-width:200px !important" src="{{ logo }}" alt="Logo" /></a></li>{% endif %}
+			{% for item in menu %}
+				<li class="{{ item.classes | join(' ') }}">
+					<a target="{{ item.target }}" href="{{ item.link }}">{{ item.title }}</a>{% if item.get_children %}<span class="caret"></span>{% endif %}
+					{% include "menu.twig" with {'menu': item.get_children} %}
+				</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+		</div>
+	</nav>
+</div>
+<button class="menu-button hidden-md-min" id="open-button"></button>
+

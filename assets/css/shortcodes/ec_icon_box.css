@@ -1,0 +1,7 @@
+/* Underline */
+.icon-box {
+  display: flex;
+  justify-content: left;
+  align-items: center; }
+  .icon-box picture {
+    margin-right: 10px; }

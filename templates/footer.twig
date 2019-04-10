@@ -1,0 +1,22 @@
+
+
+
+`<div class="bottom-bar">
+		<div class="container-fluid">
+			<div class="row text-left pt30 pb30">
+				<div class="col-xs-12 col-md-3 text-center-xs text-left-md">
+					<a class="logo" href="{{ site.url }}"><img class="svg" width="141px" src="{{ theme.link }}/assets/images/logo_white.svg" alt="Logo" /></a>
+				</div>
+				<div class="col-xs-12 col-md-4 text-center-xs pt25">
+					© 2018 MedPoint. {{ __('Wszelkie prawa zastrzeżone.','medpoint') }}
+				</div>
+				<div class="col-xs-12 col-md-3 pt25" >
+					{{ __('Mapa strony','medpoint') }}
+					<nav class="footer-menu">
+						 {% include "menu.twig" with {'menu': primary_menu.get_items} %}
+					</nav>
+				</div>
+
+			</div>
+		</div>
+	</div>

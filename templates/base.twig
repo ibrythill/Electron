@@ -1,0 +1,78 @@
+{% block html_head_container %}
+
+{% include 'html-header.twig' %}
+	{% block head %}
+	{% endblock %}
+	</head>
+{% endblock %}
+	<body id="body" class="{{body_class}}{% if is_front %} home{% endif %}" data-template="base.twig" >
+
+		{% if mobile_menu %}
+			{% set emm_items = mobile_menu.get_items %}
+		{% elseif post.get_thumbnail %}
+			{% set emm_items = primary_menu.get_items %}
+		{% endif %}
+
+		{% include "menu-mobile.twig" with {'menu': emm_items, 'logo': logo} %}
+		<div class="content-wrap">
+			<header id="header">
+				{% block header %}
+					<section id="upper-bar">
+						<div class="container-fluid">
+							<div class="row middle-xs" >
+								<div class="col-xs-10 col-md-3">
+									<div id="logo">
+										<a href="{{ site.url }}" class="animsition-link" style="max-width:301px;">
+											<img class="svg" width="300px" src="{{ theme.link }}/assets/images/logo.svg" alt="{{ site.name }}" />
+										</a>
+									</div>
+								</div>
+
+								<div class="col-xs-4 col-md-3 text-center info-icon">
+
+								</div>
+
+								<div class="col-xs-4 col-md-3 text-center info-icon">
+									<a class="flex-center" href="{{ site.url }}/rejestracja-online/"><img class="svg" src="{{ theme.link }}/assets/images/globe.svg" /> <span>rejestracja online</span></a>
+								</div>
+								<div class="col-xs-4 col-md-2 text-center info-icon">
+									<a class="flex-center" href="https://www.facebook.com/MedPointCM/"><img class="svg" src="{{ theme.link }}/assets/images/icon_fb.svg" /> <span>bądź na bieżąco</span></a>
+								</div>
+
+							</div>
+						</div>
+					</section>
+					<section id="lower-bar">
+						<div class="container-fluid">
+							<div class="row middle-xs" >
+								<div class="menu-head col-xs-12 hidden-sm hidden-xs">
+									<nav class="proton-mega-menu">
+										 {% include "menu-mega.twig" with {'menu': primary_menu.get_items} %}
+									</nav>
+								</div>
+							</div>
+						</div>
+					</section>
+				{% endblock %}
+			</header>
+
+			<section id="page" role="main">
+
+			{% block content %}
+				{% if title %}<h1>{{title}}</h1>{% endif %}
+				<div class="container-fluid {{sidebar_class}}">
+
+						Sorry, no content
+				</div>
+			{% endblock %}
+			</section>
+
+			{% block footer %}
+				<footer id="footer">
+					{% include 'footer.twig' %}
+				</footer>
+				{{ function('wp_footer') }}
+			{% endblock %}
+		</div>
+	</body>
+</html>

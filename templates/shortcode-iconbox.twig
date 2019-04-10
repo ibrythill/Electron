@@ -1,0 +1,11 @@
+{% if os_link %}
+<a href="{{function('vc_build_link', os_link ).url}}" class="icon-box">
+	<picture><img style="width:{{os_size}}px" class="svgs" src="{{ Image(os_icon_img).src}}" /></picture>
+	<p>{{os_title}}</p>
+</a>
+{% else %}
+<span>
+	<picture><img style="width:{{os_size}}px" class="svgs" src="{{ Image(os_icon_img).src}}" /></picture>
+	<p>{{os_title}}</p>
+</span>
+{% endif %}

@@ -1,0 +1,28 @@
+<div class="oferta-box2 col-xs-12 col-md-6 col-xl-4">
+	<div class="inner">
+		{% if os_link %}<a {% if not function('vc_param_group_parse_atts', os_subs) %}class="allbox"{% endif %} href="{{function('vc_build_link', os_link ).url}}">{% endif %}
+			<div class="img_link">
+			<h3>{{os_title}}</h3>
+			{% include "image.twig" with {'images': img_sizes.oferta_box, 'thumbnail': {'src': Image(os_img).src, 'width': 562, 'height': 200, 'class': 'box-hero' }} only %}
+			</div>
+			{% if os_link %}{% if function('vc_param_group_parse_atts', os_subs) %}</a>{% endif %}{% endif %}
+			<div class="inner-content">
+			{% if os_icon_img %}
+				<div class="box-icon"><img class="svg" src="{{ Image(os_icon_img).src}}" /></div>
+			{% endif %}
+
+			{% if function('vc_param_group_parse_atts', os_subs) %}
+			<div class="ossubs_list">
+				{% for item in function('vc_param_group_parse_atts', os_subs) %}
+
+					<a class="sub_oferta" href="{{function('vc_build_link', item.link ).url}}"><h4>{{item.title}}</h4> <span class="smore">{{ __('ZOBACZ','medpoint') }}</span></a>
+				{% endfor %}
+			</div>
+			{% else %}
+				<hr>
+				<div class="more">{{ __('ZOBACZ OFERTĘ','medpoint') }}</div>
+			{% endif %}
+			</div>
+			{% if os_link %}{% if not function('vc_param_group_parse_atts', os_subs) %}</a>{% endif %}{% endif %}
+	</div>
+</div>

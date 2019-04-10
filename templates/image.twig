@@ -1,0 +1,13 @@
+{# {% include "image.twig" with {'images': array-name, 'thumbnail': {'src': post.thumbnail.src, 'width': 400, 'height': 200 }} %} #}
+{% if thumbnail %}
+	<picture>
+	{% if images %}
+		<!--[if IE 9]><video style="display: none;"><![endif]-->
+		{% for image in images %}
+			<source data-srcset="{{thumbnail.src|resize(image.width, image.height)}}" media="(min-width: {{image.breakpoint}}px)">
+		{% endfor %}
+		<!--[if IE 9]></video><![endif]-->
+	{% endif %}
+	<img data-src="{{thumbnail.src|resize(thumbnail.width, thumbnail.height)}}" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="lazyload {% if thumbnail.class %}{{thumbnail.class}}{% endif %}"{% if thumbnail.alt %} alt="{{thumbnail.alt}}"{% endif %}{% if thumbnail.title %} title="{{thumbnail.title}}"{% endif %}>
+	</picture>
+{% endif %}

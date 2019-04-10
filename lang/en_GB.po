@@ -1,0 +1,965 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Proton Framework 2.2.0\n"
+"POT-Creation-Date: 2013-06-29 11:44+0100\n"
+"PO-Revision-Date: 2013-06-29 11:44+0100\n"
+"Last-Translator: Karol Pentak <admin@ibrythill.com>\n"
+"Language-Team: Karol Pentak <admin@ibrythill.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:21
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: ../archive.php:23
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:25
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:27
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: ../archive.php:29
+msgid "Blog Archives"
+msgstr ""
+
+#: ../comments.php:27
+#, php-format
+msgid "Published %1$s at %2$s"
+msgstr ""
+
+#: ../comments.php:36
+msgid "Your comment is waiting for moderation"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: ../comments.php:48
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:98 ../proton/extensions/eventbooking/eventbooking.php:71
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:102 ../proton/extensions/eventbooking/eventbooking.php:73
+msgid "E-mail"
+msgstr ""
+
+#: ../comments.php:105
+msgid "Website adress"
+msgstr ""
+
+#: ../comments.php:112
+msgid "Write comment"
+msgstr ""
+
+#: ../functions.php:20
+msgid "Main menu"
+msgstr ""
+
+#: ../functions.php:20
+msgid "Secondary menu"
+msgstr ""
+
+#: ../header.php:57
+msgid "FORUM TOPICS:"
+msgstr ""
+
+#: ../module-page.php:17 ../module-single.php:17 ../module-slider.php:20
+msgid "Read more &raquo;"
+msgstr ""
+
+#: ../module-searchform.php:6
+msgid "search..."
+msgstr ""
+
+#: ../single-galeria.php:14 ../templates/template_galeria.php:50
+msgid "Edit post"
+msgstr ""
+
+#: ../single.php:17
+msgid "Add comment"
+msgstr ""
+
+#: ../proton/ajaxlatest.php:10
+msgid "Latest articles"
+msgstr ""
+
+#: ../proton/ajaxlatest.php:36
+msgid "Comments:"
+msgstr ""
+
+#: ../proton/ajaxlatest.php:36
+msgid "Published"
+msgstr ""
+
+#: ../proton/config.php:90
+msgid "Select a page:"
+msgstr ""
+
+#: ../proton/config.php:98
+msgid "Select a category:"
+msgstr ""
+
+#: ../proton/config.php:130
+msgid "All Options"
+msgstr ""
+
+#: ../proton/config.php:134
+msgid "Attention"
+msgstr ""
+
+#: ../proton/config.php:137
+msgid ""
+"This is a callout box. This can be used to inform your clients about "
+"something important."
+msgstr ""
+
+#: ../proton/config.php:141
+msgid "Text Field"
+msgstr ""
+
+#: ../proton/config.php:142
+msgid "This is a text field."
+msgstr ""
+
+#: ../proton/config.php:148
+msgid "Textarea"
+msgstr ""
+
+#: ../proton/config.php:149
+msgid "This is a textarea."
+msgstr ""
+
+#: ../proton/config.php:155
+msgid "Image Upload"
+msgstr ""
+
+#: ../proton/config.php:156
+msgid "This is an image upload field."
+msgstr ""
+
+#: ../proton/config.php:162
+msgid "Checkbox"
+msgstr ""
+
+#: ../proton/config.php:163
+msgid "This is a checkbox."
+msgstr ""
+
+#: ../proton/config.php:169
+msgid "Dropdown List"
+msgstr ""
+
+#: ../proton/config.php:170
+msgid "This is a dropdown list."
+msgstr ""
+
+#: ../proton/config.php:177
+msgid "Radio Buttons"
+msgstr ""
+
+#: ../proton/config.php:178
+msgid "These are radio buttons."
+msgstr ""
+
+#: ../proton/config.php:189
+msgid "Image Radio Buttons"
+msgstr ""
+
+#: ../proton/config.php:190
+msgid "Spice up your radio buttons by using custom images."
+msgstr ""
+
+#: ../proton/config.php:201
+msgid "Color Picker"
+msgstr ""
+
+#: ../proton/config.php:202
+msgid "This is a color picker."
+msgstr ""
+
+#: ../proton/config.php:208
+msgid "Wordpress Page"
+msgstr ""
+
+#: ../proton/config.php:209
+msgid "This displays a list of every page on your website."
+msgstr ""
+
+#: ../proton/config.php:216
+msgid "Wordpress Category"
+msgstr ""
+
+#: ../proton/config.php:217
+msgid "This displays a list of every category on your website."
+msgstr ""
+
+#: ../proton/admin/admin-functions.php:57
+msgid "Activation Successful!"
+msgstr ""
+
+#: ../proton/admin/admin-functions.php:57
+msgid "This theme's settings are located under"
+msgstr ""
+
+#: ../proton/admin/admin-functions.php:57
+msgid "Appearance > Site Options"
+msgstr ""
+
+#: ../proton/admin/admin-interface.php:22
+msgid "Proton theme options"
+msgstr ""
+
+#: ../proton/admin/admin-interface.php:115
+msgid "Options Updated"
+msgstr ""
+
+#: ../proton/admin/admin-interface.php:118
+msgid "Options Reset"
+msgstr ""
+
+#: ../proton/admin/admin-interface.php:143
+msgid "Save All Changes"
+msgstr ""
+
+#: ../proton/admin/admin-interface.php:147
+msgid "Reset Options"
+msgstr ""
+
+#: ../proton/admin/admin-interface.php:147
+msgid "CAUTION: Any and all settings will be lost! Click OK to reset."
+msgstr ""
+
+#: ../proton/admin/admin-interface.php:406
+#: ../proton/admin/admin-interface.php:1011
+msgid "Upload Image"
+msgstr ""
+
+#: ../proton/admin/admin-interface.php:1015
+#: ../proton/functions/proton.menus.php:462
+msgid "Remove"
+msgstr ""
+
+#: ../proton/admin/proton.admin.php:10
+msgid "Custom CSS"
+msgstr ""
+
+#: ../proton/admin/proton.admin.php:10
+msgid "Extensions"
+msgstr ""
+
+#: ../proton/admin/proton.ui.main.php:4
+#: ../proton/extensions/calendar/calendar.options.php:4
+msgid "settings saved"
+msgstr ""
+
+#: ../proton/admin/proton.ui.main.php:5
+#: ../proton/extensions/calendar/calendar.options.php:5
+msgid "settings reset"
+msgstr ""
+
+#: ../proton/admin/proton.ui.main.php:17
+#: ../proton/extensions/calendar/calendar.options.php:17
+msgid "Save Settings"
+msgstr ""
+
+#: ../proton/extensions/proton.navigation.php:23
+msgid "First"
+msgstr ""
+
+#: ../proton/extensions/proton.navigation.php:24
+msgid "Previous"
+msgstr ""
+
+#: ../proton/extensions/proton.navigation.php:35
+msgid "Last"
+msgstr ""
+
+#: ../proton/extensions/proton.navigation.php:80
+msgid "You are here:"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:29
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:77
+msgid "SEO Title:"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:79
+msgid "Put new webpage title"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:84
+msgid "META keyword:"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:86
+msgid "Put in webpage META keywords"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:91
+msgid "META description:"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:93
+msgid "Put in webpage META description"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:101
+msgid "SEO"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:105
+msgid "Google auth"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:106
+msgid "Paste Google authentication key"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:111
+msgid "Global Keywords"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:112
+msgid "Write your website keywords"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:117
+msgid "Global description"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:118
+msgid "Write your website description"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:124
+msgid "Tracking Code"
+msgstr ""
+
+#: ../proton/extensions/proton.seo.php:125
+msgid "Paste Google Analytics (or other) tracking code here."
+msgstr ""
+
+#: ../proton/extensions/ajaxsearch/ajaxsearchresult.php:68
+msgid "More results"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:34
+#: ../proton/extensions/calendar/calendar.php:40
+#: ../proton/extensions/calendar/calendar.php:46
+#: ../proton/extensions/calendar/calendar.php:304
+#: ../proton/extensions/calendar/calendar.php:308
+msgid "Calendar"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:35
+msgid "Event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:36
+msgid "Add event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:37
+msgid "Add new event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:38
+msgid "Edit event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:39
+msgid "New event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:41
+msgid "View event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:42
+msgid "Search event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:43
+msgid "Not found"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:44
+msgid "Empty"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:62
+msgid "Calendar options"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:74
+msgid "Title"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:75
+msgid "Date"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:76
+#: ../proton/extensions/eventbooking/eventbooking.php:61
+msgid "Hours"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:77
+msgid "Images"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:105
+#: ../proton/extensions/calendar/calendar.php:319
+msgid "All day"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:124
+msgid "Event Calendar"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:128
+msgid "Default view:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:129
+msgid "Set default calendar view"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:135
+msgid "Left elements"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:136
+msgid "Decide what left-side buttons to display."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:142
+msgid "Center elements"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:143
+msgid "Decide what center buttons to display."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:149
+msgid "Right elements"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:150
+msgid "Decide what right-side buttons to display."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:157
+msgid "Initial date:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:158
+msgid "The initial date-of-month when the calendar loads."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:163
+msgid "Initial month:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:164
+msgid "The initial month when the calendar loads."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:170
+msgid "Initial year:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:171
+msgid "The initial year when the calendar loads."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:177
+msgid "Minimum time:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:178
+msgid "Determines the first hour/time that will be displayed."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:184
+msgid "Maximum time:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:185
+msgid "Determines the last hour/time (exclusively) that will be displayed."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:191
+msgid "First hour:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:192
+msgid "Determines the first hour that will be visible in the scroll pane."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:198
+msgid "Time slots:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:199
+msgid "The frequency for displaying time slots, in minutes."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:205
+msgid "Week start day:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:206
+msgid "The day that each week begins."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:212
+msgid "All day slot text:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:213
+msgid "The text titling the \"all-day\" slot at the top of the calendar."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:219
+msgid "Vertical axis time format:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:220
+msgid ""
+"Determines the time-text that will be displayed on the vertical axis of the "
+"agenda views."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:226
+msgid "Event time format:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:227
+msgid "Determines the time-text that will be displayed on each event."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:233
+msgid "Agenda time format:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:234
+msgid ""
+"Determines the time-text that will be displayed on each event in agenda view."
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:243
+msgid "Translations"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:246
+msgid "All fields below are for translation purposes"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:250
+msgid "Today button:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:251
+#: ../proton/extensions/calendar/calendar.php:258
+#: ../proton/extensions/calendar/calendar.php:265
+#: ../proton/extensions/calendar/calendar.php:272
+msgid "Put in the correct translation"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:257
+msgid "Month button:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:264
+msgid "Week button:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:271
+msgid "Day button:"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:310
+msgid "Calendar settings"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:321
+msgid "All day event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:326
+msgid "Start date"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:328
+msgid "Pick start date"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:333
+msgid "Start hour"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:335
+msgid "Pick event start hour"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:340
+msgid "End date"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:342
+msgid "Pick event ending date"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:347
+msgid "Ending hour"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:349
+msgid "Pick event ending hour"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:353
+msgid "Repeating event"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:355
+msgid "Pick repeating frequency"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:357
+msgid "Daily"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:358
+msgid "Weekly"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:359
+msgid "Monthly"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:360
+msgid "Yearly"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:364
+msgid "Repeating count"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:366
+msgid "Put event repeating count"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "January"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "February"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "March"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "April"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "May"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "June"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "July"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "August"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "September"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "October"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "November"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:508
+msgid "December"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Jan"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Feb"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Mar"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Apr"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Jun"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Jul"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Aug"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Sep"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Oct"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Nov"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:509
+msgid "Dec"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:510
+msgid "Sunday"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:510
+msgid "Monday"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:510
+msgid "Tuesday"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:510
+msgid "Wednesday"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:510
+msgid "Thursday"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:510
+msgid "Friday"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:510
+msgid "Saturday"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:511
+msgid "Sun"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:511
+msgid "Mon"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:511
+msgid "Tue"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:511
+msgid "Wed"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:511
+msgid "Thu"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:511
+msgid "Fri"
+msgstr ""
+
+#: ../proton/extensions/calendar/calendar.php:511
+msgid "Sat"
+msgstr ""
+
+#: ../proton/extensions/eventbooking/eventbooking.php:64
+#: ../proton/extensions/eventbooking/hours.php:34
+msgid "Pick date"
+msgstr ""
+
+#: ../proton/extensions/eventbooking/eventbooking.php:71
+#: ../proton/extensions/eventbooking/eventbooking.php:73
+#: ../proton/extensions/eventbooking/eventbooking.php:75
+msgid "(required)"
+msgstr ""
+
+#: ../proton/extensions/eventbooking/eventbooking.php:75
+msgid "Phone"
+msgstr ""
+
+#: ../proton/extensions/eventbooking/eventbooking.php:77
+msgid "Message"
+msgstr ""
+
+#: ../proton/extensions/eventbooking/eventbooking.php:82
+msgid "Send"
+msgstr ""
+
+#: ../proton/extensions/eventbooking/hours.php:20
+msgid "Nothing available"
+msgstr ""
+
+#: ../proton/extensions/eventbooking/results.php:9
+msgid "Invalid captcha"
+msgstr ""
+
+#: ../proton/extensions/eventbooking/results.php:11
+msgid "Valid captcha"
+msgstr ""
+
+#: ../proton/functions/proton.core.functions.php:43
+#: ../proton/functions/proton.core.functions.php:45
+#: ../proton/functions/proton.core.functions.php:65
+#: ../proton/functions/proton.core.functions.php:67
+msgid "Post thumbnail"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:369
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:373
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:396
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:405
+msgid "URL"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:412
+msgid "Navigation Label"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:418
+msgid "Title Attribute"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:426
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:431
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:437
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:443
+msgid "Description"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:447
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:457
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../proton/functions/proton.menus.php:462
+msgid "Cancel"
+msgstr ""
+
+#: ../proton/functions/proton.meta.php:403
+msgid "@"
+msgstr ""
+
+#: ../proton/functions/proton.meta.php:600
+msgid "Proton Custom Settings"
+msgstr ""
+
+#: ../proton/functions/proton.meta.php:613
+#: ../proton/functions/proton.meta.php:614
+#, php-format
+msgid "%s Custom Settings"
+msgstr ""
+
+#: ../proton/functions/proton.meta.php:794
+msgid "Upload"
+msgstr ""
+
+#: ../proton/functions/proton.meta.php:820
+msgid "View File"
+msgstr ""
+
+#: ../proton/functions/proton.other.php:52
+msgid "Continue Reading"
+msgstr ""
+
+#: ../proton/functions/proton.other.php:59
+msgid "ago"
+msgstr ""
+
+#: ../proton/functions/proton.sidebar.php:22
+msgid "Normal full width Sidebar"
+msgstr ""
+
+#: ../templates/template_aktualnosci.php:25
+#: ../templates/template_aktualnosci.php:27
+#: ../templates/template_galeria.php:25 ../templates/template_galeria.php:27
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""

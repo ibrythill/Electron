@@ -1,0 +1,21 @@
+<section id="headerimg" style="height:{{eih_height}}">
+	<div class="container {% if eih_class %}{{eih_class}}{% endif %}" style="height:{{eih_height}}">
+		<div class="row middle-xs" style="height:{{eih_height}}">
+			<div class="col-xs-12">
+					<h1>{% if post.title %}{{post.title}}{% else %}{{title}}{% endif %}</h1>
+					{% if breadcrumb %}{{ function('electron_breadcrumb') }}{% endif %}
+			</div>
+		</div>
+	</div>
+
+	<div class="slide">
+		{% if eih_img %}
+			{% set eih_img_url = Image(eih_img).src %}
+			{% set eih_sizes = eih_breakpoints %}
+		{% elseif post.get_thumbnail %}
+			{% set eih_img_url = post.thumbnail.src %}
+			{% set eih_sizes = img_sizes.header_image %}
+		{% endif %}
+			{% include "image.twig" with {'images': eih_sizes, 'thumbnail': {'src': eih_img_url, 'width': 1920, 'height': 800 }} only %}
+	</div>
+</section>

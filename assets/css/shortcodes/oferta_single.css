@@ -1,0 +1,100 @@
+/* Underline */
+.oferta-box {
+  margin-bottom: 30px;
+  text-align: center; }
+  .oferta-box .inner {
+    border: 1px solid #b7b7b7;
+    padding: 5px;
+    display: block;
+    overflow: hidden; }
+  .oferta-box img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  .oferta-box .box-icon {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    box-sizing: border-box;
+    border-radius: 50px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    .oferta-box .box-icon svg {
+      width: 70px;
+      height: 70px; }
+    .oferta-box .box-icon path {
+      fill: #b7b7b7;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+  .oferta-box .inner-content {
+    padding: 5px; }
+  .oferta-box h3 {
+    text-transform: uppercase; }
+  .oferta-box hr {
+    background: #e22722;
+    border: none;
+    height: 2px;
+    width: 15%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .oferta-box .more {
+    color: #444c3d;
+    margin: 20px 0 10px 0;
+    font-weight: 300;
+    font-size: 12px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .oferta-box .box-hero {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .oferta-box picture {
+    overflow: hidden;
+    display: block; }
+  .oferta-box:hover .inner-content {
+    background: #f6f6f6; }
+  .oferta-box:hover .box-icon {
+    background: #e22722; }
+    .oferta-box:hover .box-icon path {
+      fill: #fff; }
+  .oferta-box:hover hr {
+    width: 20%; }
+  .oferta-box:hover .more {
+    letter-spacing: 2px; }
+  .oferta-box:hover .box-hero {
+    transform: scale(1.1) rotate(2deg); }
+  .oferta-box.staff-box {
+    text-align: left; }
+    .oferta-box.staff-box .inner-content {
+      padding: 20px; }
+    .oferta-box.staff-box b {
+      color: #e22722;
+      font-style: italic;
+      font-size: 1.2142857143rem; }
+      @media (max-width: 1200px) {
+        .oferta-box.staff-box b {
+          font-size: calc(1.0428571429rem + 0.2vw) ; } }
+    .oferta-box.staff-box h3 {
+      margin-bottom: 0; }
+    .oferta-box.staff-box p {
+      font-size: 1.0714285714rem; }
+      @media (max-width: 1200px) {
+        .oferta-box.staff-box p {
+          font-size: calc(1.0142857143rem + 0.0666666667vw) ; } }

@@ -1,0 +1,20 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+	<div class="container-fluid">
+		{% if  sis_front %}
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>{{post.title}}</h1>
+			</div>
+		</div>
+		{% endif %}
+		<div class="row">
+			<article id="post-{{post.id}}" class="col-xs-12">
+				{{post.content}}
+			</article>
+		</div>
+	</div>
+
+{% endblock %}

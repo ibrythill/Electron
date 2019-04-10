@@ -1,0 +1,18 @@
+<div class="oferta-box col-xs-12 col-sm-6 col-md-4">
+	<div class="inner">
+		{% if os_link %}<a href="{{function('vc_build_link', os_link ).url}}">{% endif %}
+			<picture><img class="box-hero" src="{{ Image(os_img).src|resize(562, 400) }}" /></picture>
+			<div class="inner-content">
+			{% if os_icon %}
+				{{os_icon}}
+			{% endif %}
+			{% if os_icon_img %}
+				<div class="box-icon"><img class="svg" src="{{ Image(os_icon_img).src}}" /></div>
+			{% endif %}
+			<h3>{{os_title}}</h3>
+			<hr>
+			<div class="more">{{ __('ZOBACZ OFERTĘ','medpoint') }}</div>
+			</div>
+		{% if os_link %}</a>{% endif %}
+	</div>
+</div>

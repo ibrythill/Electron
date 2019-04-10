@@ -1,0 +1,18 @@
+<div class="oferta-box staff-box col-xs-12 col-sm-6 col-md-4">
+	<div class="inner">
+		{% if os_link %}<a href="{{os_link}}">{% endif %}
+			{% if os_img %}<picture><img class="box-hero" src="{{ Image(os_img).src|resize(562, 400) }}" /></picture>{% endif %}
+			<div class="inner-content">
+			{% if os_icon %}
+				{{os_icon}}
+			{% endif %}
+			{% if os_icon_img %}
+				<div class="box-icon"><img class="svg" src="{{ Image(os_icon_img).src}}" /></div>
+			{% endif %}
+			{% if os_title %}<b>{{os_title}}</b>{% endif %}
+			{% if os_name %}<h3>{{os_name}}</h3>{% endif %}
+			{% if os_position %}<p>{{os_position}}</p>{% endif %}
+			</div>
+		{% if os_link %}</a>{% endif %}
+	</div>
+</div>

@@ -1,0 +1,74 @@
+{% extends "base.twig" %}
+{% block content %}
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-xs-12">
+			<hr/>
+				<h1 class="text-center">{{post.title}}</h1>
+			</div>
+		</div>
+		<div class="date">{{post.date}}</div>
+		<div class="row">
+			<article id="post-{{post.id}}" class="col-xs-12">
+				{{post.content}}
+			</article>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<hr/>
+				<h2 class="text-center">{{ __('Polecamy','medpoint') }}</h2>
+			</div>
+		</div>
+		<div class="row">
+			{% if post.prev %}
+				<article id="tease-{{post.prev.id}}" class="tease tease-{{post.prev.post_type}} col-xs-12 {% if post.next %}col-md-6{% endif %}">
+
+					<div class="row">
+						{% if post.prev.get_thumbnail %}
+						<div class="col-xs-12 col-md-4">
+							<a href="{{post.prev.link}}">
+							<picture>
+								<img src="{{post.prev.thumbnail.src|resize(320, 450)}}" />
+							</picture>
+							</a>
+						</div>
+						{% endif %}
+						<div class="col-xs-12 {% if post.prev.get_thumbnail %}col-md-8{% endif %}">
+							<div class="date">{{post.prev.date}}</div>
+							<h2><a href="{{post.prev.link}}">{{post.prev.title}}</a></h2>
+							<p>{{post.prev.preview.length(45)}}</p>
+
+						</div>
+					</div>
+					<a class="more-link" href="{{post.prev.link}}">{{ __('zobacz więcej','medpoint') }}</a>
+
+				</article>
+			{% endif %}
+			{% if post.next %}
+				<article id="tease-{{post.next.id}}" class="tease tease-{{post.next.post_type}} col-xs-12 {% if post.prev %}col-md-6{% endif %}">
+
+					<div class="row">
+						{% if post.next.get_thumbnail %}
+						<div class="col-xs-12 col-md-4">
+							<a href="{{post.next.link}}">
+							<picture>
+								<img src="{{post.next.thumbnail.src|resize(320, 450)}}" />
+							</picture>
+							</a>
+						</div>
+						{% endif %}
+						<div class="col-xs-12 {% if post.next.get_thumbnail %}col-md-8{% endif %}">
+							<div class="date">{{post.next.date}}</div>
+							<h2><a href="{{post.next.link}}">{{post.next.title}}</a></h2>
+							<p>{{post.next.preview.length(45)}}</p>
+
+						</div>
+					</div>
+					<a class="more-link" href="{{post.next.link}}">{{ __('zobacz więcej','medpoint') }}</a>
+
+				</article>
+			{% endif %}
+		</div>
+	</div>
+{% endblock %}

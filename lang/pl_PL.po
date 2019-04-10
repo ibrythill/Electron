@@ -1,0 +1,2607 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Proton Framework 2.2.0\n"
+"POT-Creation-Date: 2014-02-23 21:42+0100\n"
+"PO-Revision-Date: 2014-02-23 21:53+0100\n"
+"Last-Translator: Karol Pentak <admin@ibrythill.com>\n"
+"Language-Team: Karol Pentak <admin@ibrythill.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:21
+msgid "Error 404 - Not Found"
+msgstr "Błąd 404 – Nie znaleziono"
+
+#: ../archive.php:23
+#, php-format
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Archiwum dnia: <span>%s</span>"
+
+#: ../archive.php:25
+#, php-format
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Archiwum miesiąca: <span>%s</span>"
+
+#: ../archive.php:27
+#, php-format
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Archowum roku: <span>%s</span>"
+
+#: ../archive.php:29
+msgid "Blog Archives"
+msgstr "Archiwum bloga"
+
+#: ../author.php:92 ../category.php:34 ../index.php:34 ../search.php:33
+#, php-format
+msgid "View all posts in %s"
+msgstr "Zobacz wszystkie posty w %s"
+
+#: ../comments.php:27
+#, php-format
+msgid "Published %1$s at %2$s"
+msgstr "Opublikowano %1$s o %2$s"
+
+#: ../comments.php:36
+msgid "Your comment is waiting for moderation"
+msgstr "Twój komentarz oczekuje na zatwierdzenie"
+
+#: ../comments.php:43
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Prosze nie otwierac tej strony bezpośrednio. Dziękuje!"
+
+#: ../comments.php:48
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Ten post jest chroniony hasłem. Wpisz hasło aby zobaczyć komentarz."
+
+#: ../comments.php:98 ../proton/extensions/eventbooking/eventbooking.php:71
+msgid "Name"
+msgstr "Imię i nazwisko"
+
+#: ../comments.php:102 ../proton/extensions/eventbooking/eventbooking.php:73
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../comments.php:105
+msgid "Website adress"
+msgstr "Adres www"
+
+#: ../comments.php:112
+msgid "Write comment"
+msgstr "Napisz komentarz"
+
+#: ../functions.php:25
+msgid "Main menu"
+msgstr "Menu główne"
+
+#: ../functions.php:25
+msgid "Menu o fundacji"
+msgstr ""
+
+#: ../functions.php:25
+msgid "Menu kontakt"
+msgstr ""
+
+#: ../functions.php:25
+msgid "Menu media"
+msgstr ""
+
+#: ../functions.php:25
+msgid "Menu dolne 1"
+msgstr ""
+
+#: ../functions.php:25
+msgid "Menu dolne 2"
+msgstr ""
+
+#: ../functions.php:99
+msgid "Główna"
+msgstr ""
+
+#: ../functions.php:100
+msgid "<p class=\"description\">Tutaj możesz zmienić ustawienia Slidera.</p>"
+msgstr ""
+
+#: ../functions.php:125
+msgid "Link do facebooka"
+msgstr ""
+
+#: ../functions.php:126 ../functions.php:136 ../functions.php:146
+#: ../functions.php:156
+msgid "Podaj adres strony."
+msgstr ""
+
+#: ../functions.php:127
+msgid "Podaj link do strony na facebooku."
+msgstr ""
+
+#: ../functions.php:135
+msgid "Link do twittera"
+msgstr ""
+
+#: ../functions.php:137
+msgid "Podaj link do profilu na twitterze."
+msgstr ""
+
+#: ../functions.php:145
+msgid "Link do pinterest"
+msgstr ""
+
+#: ../functions.php:147
+msgid "Podaj link do strony pinterest."
+msgstr ""
+
+#: ../functions.php:155
+msgid "Link do google+"
+msgstr ""
+
+#: ../functions.php:157
+msgid "Podaj link do strony google+."
+msgstr ""
+
+#: ../functions.php:167
+msgid "Aktualności"
+msgstr ""
+
+#: ../functions.php:168
+msgid ""
+"<p class=\"description\">Tutaj możesz zmienić ustawienia strony aktualności."
+"</p>"
+msgstr ""
+
+#: ../functions.php:214
+msgid "Obrazki"
+msgstr ""
+
+#: ../functions.php:215
+msgid ""
+"<p class=\"description\">W tej czesci mozesz zmienic ustawienia zdjec.</p>"
+msgstr ""
+
+#: ../module-page.php:17 ../module-single.php:17 ../module-slider.php:20
+msgid "Read more &raquo;"
+msgstr "Więcej  &raquo;"
+
+#: ../module-searchform.php:4
+msgid "search..."
+msgstr "szukaj…"
+
+#: ../search.php:15
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../dev/proton.dev.php:4
+msgid "Editor"
+msgstr "Edytor"
+
+#: ../dev/proton.dev.php:5
+msgid "Manager"
+msgstr "Manager"
+
+#: ../dev/proton.ui.main.php:5
+msgid "settings saved"
+msgstr " – ustawienia zapisano"
+
+#: ../dev/proton.ui.main.php:6
+msgid "settings reset"
+msgstr " – ustawienia zresetowani"
+
+#: ../dev/proton.ui.main.php:88
+msgid ""
+"/*\n"
+"Welcome to the Custom CSS editor!\n"
+" \n"
+"Please add all your custom CSS here and avoid modifying the core theme "
+"files, since that'll make upgrading the theme problematic. Your custom CSS "
+"will be loaded after the theme's stylesheets, which means that your rules "
+"will take precedence. Just add your CSS here for what you want to change, "
+"you don't need to copy all the theme's style.css content.\n"
+"*/"
+msgstr ""
+
+#: ../dev/proton.ui.main.php:97
+msgid "Custom CSS updated."
+msgstr "Style css uaktualnione."
+
+#: ../dev/proton.ui.main.php:112 ../proton/admin/ReduxCore/framework.php:1786
+#: ../proton/admin/ReduxCore/framework.php:2034
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: ../proton/config.php:396
+msgid "Layout"
+msgstr ""
+
+#: ../proton/config.php:398
+msgid ""
+"Select a specific layout for this post/page. Overrides default site layout."
+msgstr "Wybierz układ dla tego postu/strony. Nadpisuje standardowe ustawienia."
+
+#: ../proton/custom.php:20 ../proton/custom.php:22
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Link do %s"
+
+#: ../proton/custom.php:52 ../proton/custom.php:58
+msgid "Harmonogram"
+msgstr ""
+
+#: ../proton/custom.php:53
+msgid "Wydarzenie"
+msgstr ""
+
+#: ../proton/custom.php:54
+msgid "Dodaj nowe"
+msgstr ""
+
+#: ../proton/custom.php:55
+msgid "Dodaj nowe wydarzenie"
+msgstr ""
+
+#: ../proton/custom.php:56
+msgid "Edytuj wydarzenie"
+msgstr ""
+
+#: ../proton/custom.php:57
+msgid "Nowe wydarzenie"
+msgstr ""
+
+#: ../proton/custom.php:59
+msgid "Zobacz wydarzenie"
+msgstr ""
+
+#: ../proton/custom.php:60
+msgid "Przeszukuj harmonogram"
+msgstr ""
+
+#: ../proton/custom.php:61 ../proton/custom_posts.php:50
+#: ../proton/custom_posts.php:92 ../proton/custom_posts.php:136
+#: ../proton/extensions/galeria.php:16
+msgid "Nie znaleziono"
+msgstr ""
+
+#: ../proton/custom.php:62 ../proton/custom_posts.php:51
+#: ../proton/custom_posts.php:93 ../proton/custom_posts.php:137
+#: ../proton/extensions/galeria.php:17
+msgid "Pusto"
+msgstr ""
+
+#: ../proton/custom_posts.php:41
+msgid "Służby"
+msgstr ""
+
+#: ../proton/custom_posts.php:42
+msgid "Służba"
+msgstr ""
+
+#: ../proton/custom_posts.php:43
+msgid "Dodaj służbę"
+msgstr ""
+
+#: ../proton/custom_posts.php:44
+msgid "Dodaj nową służbę"
+msgstr ""
+
+#: ../proton/custom_posts.php:45
+msgid "Edytuj służbę"
+msgstr ""
+
+#: ../proton/custom_posts.php:46
+msgid "Nowa służba"
+msgstr ""
+
+#: ../proton/custom_posts.php:47
+msgid "Wszystkie służby"
+msgstr ""
+
+#: ../proton/custom_posts.php:48
+msgid "Zobacz służbę"
+msgstr ""
+
+#: ../proton/custom_posts.php:49
+msgid "Przeszukuj służby"
+msgstr ""
+
+#: ../proton/custom_posts.php:83
+msgid "Kazania"
+msgstr ""
+
+#: ../proton/custom_posts.php:84
+msgid "Kazanie"
+msgstr ""
+
+#: ../proton/custom_posts.php:85
+msgid "Dodaj kazanie"
+msgstr ""
+
+#: ../proton/custom_posts.php:86
+msgid "Dodaj nowe kazanie"
+msgstr ""
+
+#: ../proton/custom_posts.php:87
+msgid "Edytuj kazanie"
+msgstr ""
+
+#: ../proton/custom_posts.php:88
+msgid "Nowe kazanie"
+msgstr ""
+
+#: ../proton/custom_posts.php:89
+msgid "Wszystkie kazania"
+msgstr ""
+
+#: ../proton/custom_posts.php:90
+msgid "Zobacz kazanie"
+msgstr ""
+
+#: ../proton/custom_posts.php:91
+msgid "Przeszukuj kazania"
+msgstr ""
+
+#: ../proton/custom_posts.php:127
+msgid "Cytaty"
+msgstr ""
+
+#: ../proton/custom_posts.php:128
+msgid "Cytat"
+msgstr ""
+
+#: ../proton/custom_posts.php:129
+msgid "Dodaj cytat"
+msgstr ""
+
+#: ../proton/custom_posts.php:130
+msgid "Dodaj nowy cytat"
+msgstr ""
+
+#: ../proton/custom_posts.php:131
+msgid "Edytuj cytat"
+msgstr ""
+
+#: ../proton/custom_posts.php:132
+msgid "Nowy cytat"
+msgstr ""
+
+#: ../proton/custom_posts.php:133
+msgid "Wszystkie cytaty"
+msgstr ""
+
+#: ../proton/custom_posts.php:134
+msgid "Zobacz cytat"
+msgstr ""
+
+#: ../proton/custom_posts.php:135
+msgid "Przeszukuj cytaty"
+msgstr ""
+
+#: ../proton/custom_posts.php:196 ../proton/custom_posts.php:210
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:128
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:187
+#: ../proton/extensions/galeria.php:44
+msgid "Title"
+msgstr "Tytuł"
+
+#: ../proton/custom_posts.php:197 ../proton/custom_posts.php:211
+#: ../proton/extensions/galeria.php:45
+msgid "Images"
+msgstr "Obrazki"
+
+#: ../proton/custom_posts.php:198 ../proton/custom_posts.php:212
+msgid "Categories"
+msgstr "Kategorie"
+
+#: ../proton/custom_posts.php:199 ../proton/admin/sample-config.php:54
+msgid "Tags"
+msgstr "Tagi"
+
+#: ../proton/custom_posts.php:200 ../proton/custom_posts.php:213
+#: ../proton/extensions/galeria.php:46
+msgid "Author"
+msgstr "Autor"
+
+#: ../proton/custom_posts.php:203 ../proton/custom_posts.php:216
+#: ../proton/extensions/galeria.php:49
+msgid "Date"
+msgstr "Data"
+
+#: ../proton/custom_posts.php:344 ../proton/custom_posts.php:345
+#: ../proton/custom_posts.php:354
+msgid "Województwo"
+msgstr ""
+
+#: ../proton/custom_posts.php:346
+msgid "Szukaj województwa"
+msgstr ""
+
+#: ../proton/custom_posts.php:347 ../proton/custom_posts.php:369
+msgid "Wszystkie"
+msgstr ""
+
+#: ../proton/custom_posts.php:348 ../proton/custom_posts.php:370
+msgid "Nadzrzedne"
+msgstr ""
+
+#: ../proton/custom_posts.php:349 ../proton/custom_posts.php:371
+#: ../proton/custom_posts.php:396
+msgid "Nadzrzedne:"
+msgstr ""
+
+#: ../proton/custom_posts.php:350
+msgid "Edytuj województwo"
+msgstr ""
+
+#: ../proton/custom_posts.php:351
+msgid "Uaktualnij województwo"
+msgstr ""
+
+#: ../proton/custom_posts.php:352
+msgid "Dodaj nowe województwo"
+msgstr ""
+
+#: ../proton/custom_posts.php:353
+msgid "Nazwa nowego woj."
+msgstr ""
+
+#: ../proton/custom_posts.php:366 ../proton/custom_posts.php:367
+#: ../proton/custom_posts.php:376
+msgid "Region"
+msgstr ""
+
+#: ../proton/custom_posts.php:368
+msgid "Szukaj regionu"
+msgstr ""
+
+#: ../proton/custom_posts.php:372
+msgid "Edytuj region"
+msgstr ""
+
+#: ../proton/custom_posts.php:373
+msgid "Uaktualnij region"
+msgstr ""
+
+#: ../proton/custom_posts.php:374
+msgid "Dodaj nowy region"
+msgstr ""
+
+#: ../proton/custom_posts.php:375
+msgid "Nazwa nowego regionu"
+msgstr ""
+
+#: ../proton/custom_posts.php:391 ../proton/custom_posts.php:392
+#: ../proton/custom_posts.php:401
+msgid "Rodzaj"
+msgstr ""
+
+#: ../proton/custom_posts.php:393
+msgid "Szukaj"
+msgstr ""
+
+#: ../proton/custom_posts.php:394
+msgid "Wszystkie rodzaje"
+msgstr ""
+
+#: ../proton/custom_posts.php:395
+msgid "Nadzrzedny rodzaj"
+msgstr ""
+
+#: ../proton/custom_posts.php:397
+msgid "Edytuj rodzaj"
+msgstr ""
+
+#: ../proton/custom_posts.php:398
+msgid "Uaktualnij rodzaj"
+msgstr ""
+
+#: ../proton/custom_posts.php:399
+msgid "Dodaj nowy"
+msgstr ""
+
+#: ../proton/custom_posts.php:400
+msgid "Nazwa nowego rodzaju"
+msgstr ""
+
+#: ../proton/admin/config.php:121 ../proton/admin/config.php:125
+msgid "Opcje Skórki"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:33
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:52
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:53
+#, fuzzy, php-format
+msgid "Version %s"
+msgstr "Rozszerzenia"
+
+#: ../proton/admin/sample-config.php:58
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:59
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:177 ../proton/admin/sample-config.php:181
+#: ../proton/admin/ReduxCore/framework.php:104
+#: ../proton/admin/ReduxCore/framework.php:110
+#: ../proton/admin/ReduxCore/framework.php:249
+#: ../proton/admin/ReduxCore/framework.php:251
+msgid "Options"
+msgstr "Opcje"
+
+#: ../proton/admin/sample-config.php:223
+msgid "Theme Information 1"
+msgstr "Onformacje o motywie 1"
+
+#: ../proton/admin/sample-config.php:224 ../proton/admin/sample-config.php:229
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr "<p>To jest zawartość zakładki, HTML jest dozwolony.</p>"
+
+#: ../proton/admin/sample-config.php:228
+msgid "Theme Information 2"
+msgstr "Onformacje o motywie 2"
+
+#: ../proton/admin/sample-config.php:233
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr "<p>To jest zawartość sidebara, HTML jest dozwolony.</p>"
+
+#: ../proton/admin/sample-config.php:243
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$%1$s</strong></p>"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:245
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:249
+msgid ""
+"<p>This text is displayed below the options panel. It isn't required, but "
+"more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:280
+#, fuzzy
+msgid "Home Settings"
+msgstr "Zapisz ustawienia"
+
+#: ../proton/admin/sample-config.php:281
+msgid ""
+"Redux Framework was created with the developer in mind. It allows for any "
+"theme developer to have an advanced theme panel with most of the features a "
+"developer would need. For more information check out the Github repo at: <a "
+"href=\"https://github.com/ReduxFramework/Redux-Framework\">https://github."
+"com/ReduxFramework/Redux-Framework</a>"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:288
+msgid "Web Fonts"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:291 ../proton/admin/sample-config.php:301
+msgid "Basic media uploader with disabled URL input field."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:292 ../proton/admin/sample-config.php:302
+#: ../proton/admin/sample-config.php:311 ../proton/admin/sample-config.php:319
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:298
+msgid "Media w/ URL"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:309
+msgid "Media w/o URL"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:310 ../proton/admin/sample-config.php:318
+msgid ""
+"This represents the minimalistic view. It does not have the preview box or "
+"the display URL in an input box. "
+msgstr ""
+
+#: ../proton/admin/sample-config.php:317
+msgid "Media No Preview"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:324
+#: ../proton/admin/ReduxCore/inc/fields/gallery/field_gallery.php:77
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:325
+msgid ""
+"Create a new Gallery by selecting existing or uploading new images using the "
+"WordPress native uploader"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:326 ../proton/admin/sample-config.php:695
+#: ../proton/admin/sample-config.php:703 ../proton/admin/sample-config.php:720
+#: ../proton/admin/sample-config.php:800 ../proton/admin/sample-config.php:810
+#: ../proton/admin/sample-config.php:821 ../proton/admin/sample-config.php:828
+#: ../proton/admin/sample-config.php:837 ../proton/admin/sample-config.php:847
+#: ../proton/admin/sample-config.php:857 ../proton/admin/sample-config.php:876
+#: ../proton/admin/sample-config.php:886 ../proton/admin/sample-config.php:895
+#: ../proton/admin/sample-config.php:904 ../proton/admin/sample-config.php:913
+#: ../proton/admin/sample-config.php:923 ../proton/admin/sample-config.php:939
+#: ../proton/admin/sample-config.php:947 ../proton/admin/sample-config.php:956
+#: ../proton/admin/sample-config.php:964 ../proton/admin/sample-config.php:972
+#: ../proton/admin/sample-config.php:981 ../proton/admin/sample-config.php:989
+#: ../proton/admin/sample-config.php:1019
+#: ../proton/admin/sample-config.php:1032
+#: ../proton/admin/sample-config.php:1051
+#: ../proton/admin/sample-config.php:1061
+#: ../proton/admin/sample-config.php:1091
+#: ../proton/admin/sample-config.php:1100
+#: ../proton/admin/sample-config.php:1108
+#: ../proton/admin/sample-config.php:1117
+#: ../proton/admin/sample-config.php:1125
+#: ../proton/admin/sample-config.php:1134
+#: ../proton/admin/sample-config.php:1142
+#: ../proton/admin/sample-config.php:1151
+#: ../proton/admin/sample-config.php:1159
+#: ../proton/admin/sample-config.php:1168
+#: ../proton/admin/sample-config.php:1178
+#: ../proton/admin/sample-config.php:1186
+#: ../proton/admin/sample-config.php:1195
+#: ../proton/admin/sample-config.php:1203
+#: ../proton/admin/sample-config.php:1212
+#: ../proton/admin/sample-config.php:1283
+#: ../proton/admin/sample-config.php:1294
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:331
+msgid "JQuery UI Slider Example 1"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:332
+msgid ""
+"JQuery UI slider description. Min: 1, max: 500, step: 3, default value: 45"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:342
+msgid "JQuery UI Slider Example 2 w/ Steps (5)"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:343
+msgid ""
+"JQuery UI slider description. Min: 0, max: 300, step: 5, default value: 75"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:352
+msgid "JQuery UI Spinner Example 1"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:353
+msgid ""
+"JQuery UI spinner description. Min:20, max: 100, step:20, default value: 40"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:362
+msgid "Switch On"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:363 ../proton/admin/sample-config.php:371
+#: ../proton/admin/sample-config.php:1346
+msgid "Look, it's on!"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:370
+msgid "Switch Off"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:378
+msgid "Switch - Custom Titles"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:379
+msgid "Look, it's on! Also hidden child elements!"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:389
+msgid "Switch - With Hidden Items (NESTED!)"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:390
+msgid "Also called a \"fold\" parent."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:391
+msgid ""
+"Items set with a fold to this ID will hide unless this is set to the "
+"appropriate value."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:399
+msgid "Images Option (with pattern=>true)"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:400
+#, fuzzy
+msgid "Select a background pattern."
+msgstr "Wybierz kategorię:"
+
+#: ../proton/admin/sample-config.php:450 ../proton/admin/sample-config.php:457
+#, fuzzy
+msgid "Slides Options"
+msgstr "Wszystkie opcje"
+
+#: ../proton/admin/sample-config.php:451 ../proton/admin/sample-config.php:458
+msgid "Unlimited slides with drag and drop sortings."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:452 ../proton/admin/sample-config.php:528
+msgid ""
+"This field will store all slides values into a multidimensional array to use "
+"into a foreach loop."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:534
+msgid "Preset"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:535 ../proton/admin/sample-config.php:537
+msgid ""
+"This allows you to set a json string or array to override multiple "
+"preferences in your theme."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:546
+msgid "Typography"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:561
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:583
+#, fuzzy
+msgid "General Settings"
+msgstr "Zapisz ustawienia"
+
+#: ../proton/admin/sample-config.php:589
+#, fuzzy
+msgid "Main Layout"
+msgstr "Menu główne"
+
+#: ../proton/admin/sample-config.php:590
+msgid ""
+"Select main content and sidebar alignment. Choose between 1, 2 or 3 column "
+"layout."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:606
+#: ../proton/extensions/proton.seo.php:154
+msgid "Tracking Code"
+msgstr "Kod trackingowy"
+
+#: ../proton/admin/sample-config.php:607
+#, fuzzy
+msgid ""
+"Paste your Google Analytics (or other) tracking code here. This will be "
+"added into the footer template of your theme."
+msgstr "Wklej kod Google Analytics lub inny."
+
+#: ../proton/admin/sample-config.php:615
+msgid "CSS Code"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:616
+msgid "Paste your CSS code here."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:625
+msgid "JS Code"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:626
+msgid "Paste your JS code here."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:636
+msgid "Footer Text"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:637
+msgid ""
+"You can use the following shortcodes in your footer text: [wp-url] [site-"
+"url] [theme-url] [login-url] [logout-url] [site-title] [site-tagline] "
+"[current-year]"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:655
+#, fuzzy
+msgid "Styling Options"
+msgstr "Wszystkie opcje"
+
+#: ../proton/admin/sample-config.php:660
+msgid "Theme Stylesheet"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:661
+#: ../proton/admin/sample-config.php:1360
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:669
+msgid "Body Background Color"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:670
+msgid "Pick a background color for the theme (default: #fff)."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:677
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:678
+msgid "Pick a background color for the footer (default: #dd9933)."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:685
+msgid "Color RGBA - BETA"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:686
+msgid ""
+"Gives you the RGBA color. Still quite experimental. Use at your own risk."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:693
+msgid "Header Gradient Color Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:694 ../proton/admin/sample-config.php:702
+#: ../proton/admin/sample-config.php:718
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:701
+msgid "Links Color Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:717
+msgid "Header Border Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:736
+msgid "Padding/Margin Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:737
+msgid "Allow your users to choose the spacing or margin they want."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:738
+msgid ""
+"You can enable or disable any piece of this field. Top, Right, Bottom, Left, "
+"or Units."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:746
+msgid "Dimensions (Width/Height) Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:747
+msgid "Allow your users to choose width, height, and/or unit."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:748
+msgid ""
+"You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:754
+msgid "Body Font"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:755
+msgid "Specify the body font properties."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:767
+msgid "Custom CSS"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:768
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:769
+#, fuzzy
+msgid "This field is even CSS validated!"
+msgstr "Wprowadź prawidłowa datę."
+
+#: ../proton/admin/sample-config.php:775
+msgid "Custom HTML"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:776
+msgid "Just like a text box widget."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:777
+#, fuzzy
+msgid "This field is even HTML validated!"
+msgstr "Wprowadź prawidłowa datę."
+
+#: ../proton/admin/sample-config.php:791
+msgid "Field Validation"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:792
+msgid "Validate ALL fields within Redux."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:793
+#, fuzzy
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed2</p>"
+msgstr "<p>To jest zawartość zakładki, HTML jest dozwolony.</p>"
+
+#: ../proton/admin/sample-config.php:798
+msgid "Text Option - Email Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:799
+msgid ""
+"This is a little space under the Field Title in the Options table, "
+"additional info is good in here."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:808
+msgid "Text Option with Data Attributes"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:809
+msgid ""
+"You can also pass an options array if you want. Set the default to whatever "
+"you like."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:818
+msgid "Multi Text Option - Color Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:820
+msgid ""
+"If you enter an invalid color it will be removed. Try using the text \"blue"
+"\" as a color.  ;)"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:826
+#, fuzzy
+msgid "Text Option - URL Validated"
+msgstr "Zapisano"
+
+#: ../proton/admin/sample-config.php:827
+#, fuzzy
+msgid "This must be a URL."
+msgstr "Wprowadź prawidłowa datę."
+
+#: ../proton/admin/sample-config.php:835
+msgid "Text Option - Numeric Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:836
+msgid "This must be numeric."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:845
+msgid "Text Option - Comma Numeric Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:846
+#, fuzzy
+msgid "This must be a comma separated string of numerical values."
+msgstr "Wprowadź wartości liczbowe, oddzielone przecinkami."
+
+#: ../proton/admin/sample-config.php:855
+msgid "Text Option - No Special Chars Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:856
+#, fuzzy
+msgid "This must be a alpha numeric only."
+msgstr "Wprowadź prawidłowa datę."
+
+#: ../proton/admin/sample-config.php:864
+msgid "Text Option - Str Replace Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:865 ../proton/admin/sample-config.php:875
+#: ../proton/admin/sample-config.php:885
+msgid "You decide."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:866
+msgid "This field's default value was changed by a filter hook!"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:874
+msgid "Text Option - Preg Replace Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:884
+msgid "Text Option - Custom Callback Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:893
+msgid "Textarea Option - No HTML Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:894
+msgid "All HTML will be stripped"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:902
+msgid "Textarea Option - HTML Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:903
+msgid "HTML Allowed (wp_kses)"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:911
+msgid "Textarea Option - HTML Validated Custom"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:912
+msgid "Custom HTML Allowed (wp_kses)"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:921
+msgid "Textarea Option - JS Validated"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:922
+msgid "JS will be escaped"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:931
+msgid "Radio/Checkbox Fields"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:932
+#: ../proton/admin/sample-config.php:1044
+#: ../proton/admin/sample-config.php:1275
+#: ../proton/admin/sample-config.php:1378
+#, fuzzy
+msgid ""
+"<p class=\"description\">This is the Description. Again HTML is allowed</p>"
+msgstr "<p>To jest zawartość zakładki, HTML jest dozwolony.</p>"
+
+#: ../proton/admin/sample-config.php:937
+#, fuzzy
+msgid "Checkbox Option"
+msgstr "Checkbox"
+
+#: ../proton/admin/sample-config.php:938 ../proton/admin/sample-config.php:946
+#: ../proton/admin/sample-config.php:955 ../proton/admin/sample-config.php:963
+#: ../proton/admin/sample-config.php:971 ../proton/admin/sample-config.php:980
+#: ../proton/admin/sample-config.php:988
+#: ../proton/admin/sample-config.php:1002
+#: ../proton/admin/sample-config.php:1050
+#: ../proton/admin/sample-config.php:1060
+#: ../proton/admin/sample-config.php:1090
+#: ../proton/admin/sample-config.php:1099
+#: ../proton/admin/sample-config.php:1107
+#: ../proton/admin/sample-config.php:1116
+#: ../proton/admin/sample-config.php:1124
+#: ../proton/admin/sample-config.php:1133
+#: ../proton/admin/sample-config.php:1141
+#: ../proton/admin/sample-config.php:1150
+#: ../proton/admin/sample-config.php:1158
+#: ../proton/admin/sample-config.php:1167
+#: ../proton/admin/sample-config.php:1185
+#: ../proton/admin/sample-config.php:1194
+#: ../proton/admin/sample-config.php:1202
+#: ../proton/admin/sample-config.php:1211
+#: ../proton/admin/sample-config.php:1219
+#: ../proton/admin/sample-config.php:1282
+#: ../proton/admin/sample-config.php:1293
+msgid "No validation can be done on this field type"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:945
+msgid "Multi Checkbox Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:954 ../proton/admin/sample-config.php:979
+msgid "Multi Checkbox Option (with menu data)"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:962
+msgid "Multi Checkbox Option (with sidebar data)"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:970
+#, fuzzy
+msgid "Radio Option"
+msgstr "Przyciski radio"
+
+#: ../proton/admin/sample-config.php:987
+#, fuzzy
+msgid "Images Option"
+msgstr "Importuj ustawienia"
+
+#: ../proton/admin/sample-config.php:1001
+msgid "Images Option for Layout"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1003
+msgid ""
+"This uses some of the built in images, you can use them for layout options."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1017
+#: ../proton/admin/sample-config.php:1030
+#, fuzzy
+msgid "Sortable Text Option"
+msgstr "Opcje Importu/Eksportu"
+
+#: ../proton/admin/sample-config.php:1018
+#: ../proton/admin/sample-config.php:1031
+msgid "Define and reorder these however you want."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1043
+#, fuzzy
+msgid "Select Fields"
+msgstr "Pole tekstowe"
+
+#: ../proton/admin/sample-config.php:1049
+#, fuzzy
+msgid "Select Option"
+msgstr "Wszystkie opcje"
+
+#: ../proton/admin/sample-config.php:1059
+#, fuzzy
+msgid "Multi Select Option"
+msgstr "Wszystkie opcje"
+
+#: ../proton/admin/sample-config.php:1070
+#, fuzzy
+msgid "Select Image"
+msgstr "Wybierz stronę:"
+
+#: ../proton/admin/sample-config.php:1071
+msgid "A preview of the selected image will appear underneath the select box."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1083
+msgid "You can easily add a variety of data from WordPress."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1089
+msgid "Categories Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1098
+msgid "Categories Multi Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1106
+msgid "Pages Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1115
+msgid "Pages Multi Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1123
+msgid "Tags Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1132
+msgid "Tags Multi Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1140
+msgid "Menus Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1149
+msgid "Menus Multi Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1157
+msgid "Post Type Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1166
+msgid "Post Type Multi Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1176
+msgid "Post Type Multi Select Option + Sortable"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1177
+msgid "This field also has sortable enabled!"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1184
+#, fuzzy
+msgid "Posts Select Option2"
+msgstr "Proton – ustawienia"
+
+#: ../proton/admin/sample-config.php:1193
+msgid "Posts Multi Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1201
+msgid "User Role Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1210
+msgid "Capabilities Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1218
+msgid "Elusive Icons Select Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1220
+msgid "Here's a list of all the elusive icons by name and icon."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1244
+msgid "<strong>Theme URL:</strong> "
+msgstr "<strong>Adres www:</strong> "
+
+#: ../proton/admin/sample-config.php:1245
+msgid "<strong>Author:</strong> "
+msgstr "<strong>Autor:</strong> "
+
+#: ../proton/admin/sample-config.php:1246
+msgid "<strong>Version:</strong> "
+msgstr "<strong>Wersja:</strong> "
+
+#: ../proton/admin/sample-config.php:1249
+msgid "<strong>Tags:</strong> "
+msgstr "<strong>Tagi:</strong> "
+
+#: ../proton/admin/sample-config.php:1256
+#: ../proton/admin/sample-config.php:1392
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: ../proton/admin/sample-config.php:1274
+msgid "Additional Fields"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1281
+#, fuzzy
+msgid "Date Option"
+msgstr "Opcje"
+
+#: ../proton/admin/sample-config.php:1292
+msgid "Button Set Option"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1302
+msgid "This is the info field, if you want to break sections up."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1308
+#: ../proton/admin/sample-config.php:1316
+#, fuzzy
+msgid "This is a title."
+msgstr "To jest pole tekstowe."
+
+#: ../proton/admin/sample-config.php:1309
+msgid "This is an info field with the warning style applied and a header."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1317
+msgid ""
+"This is an info field with the success style applied, a header and an icon."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1329
+msgid "Custom Field Callback"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1330
+#, fuzzy
+msgid "This is a completely unique field type"
+msgstr "To to jest pole tekstowe"
+
+#: ../proton/admin/sample-config.php:1331
+msgid ""
+"This is created with a callback function, so anything goes in this field. "
+"Make sure to define the function though."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1337
+msgid "Group - BETA"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1338
+msgid "Group any items together. Experimental. Use at your own risk."
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1339
+msgid "Group"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1345
+msgid "testing fold with Group"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1352
+#, fuzzy
+msgid "Text"
+msgstr "Pole tekstowe"
+
+#: ../proton/admin/sample-config.php:1353
+msgid "Here you put your subtitle"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1359
+#, fuzzy
+msgid "Testing select"
+msgstr " – ustawienia zresetowani"
+
+#: ../proton/admin/sample-config.php:1377
+msgid "Theme Information"
+msgstr "Onformacje o motywie"
+
+#: ../proton/admin/sample-config.php:1418
+msgid "Section via hook"
+msgstr ""
+
+#: ../proton/admin/sample-config.php:1419
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:263
+#, fuzzy
+msgid "Options panel created using"
+msgstr "Zapisano"
+
+#: ../proton/admin/ReduxCore/framework.php:263
+msgid "Redux Framework"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:893
+#: ../proton/admin/ReduxCore/framework.php:894
+#: ../proton/admin/ReduxCore/framework.php:1870
+msgid "Import / Export"
+msgstr "Import / Eksport"
+
+#: ../proton/admin/ReduxCore/framework.php:904
+#: ../proton/admin/ReduxCore/framework.php:905
+#: ../proton/admin/ReduxCore/framework.php:1886
+#: ../proton/admin/ReduxCore/framework.php:1984
+#, fuzzy
+msgid "Options Object"
+msgstr "Ustawienia zresetowano"
+
+#: ../proton/admin/ReduxCore/framework.php:915
+#: ../proton/admin/ReduxCore/framework.php:916
+#: ../proton/admin/ReduxCore/framework.php:1900
+#: ../proton/admin/ReduxCore/framework.php:2004
+msgid "System Info"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1170
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1171
+#, fuzzy
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr "Jesteś pewien? Resetując stracisz wszystkie zapisane ustawienia."
+
+#: ../proton/admin/ReduxCore/framework.php:1172
+#, fuzzy
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr "Jesteś pewien? Resetując stracisz wszystkie zapisane ustawienia."
+
+#: ../proton/admin/ReduxCore/framework.php:1173
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1421
+#, fuzzy
+msgid "Default"
+msgstr "Widok domyślny:"
+
+#: ../proton/admin/ReduxCore/framework.php:1730
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1784
+msgid "Expand"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1788
+#: ../proton/admin/ReduxCore/framework.php:2036
+msgid "Reset Section"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1790
+#: ../proton/admin/ReduxCore/framework.php:2038
+msgid "Reset All"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1793
+#: ../proton/admin/ReduxCore/framework.php:2041
+msgid "Working..."
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1800
+#, fuzzy
+msgid "Settings Imported!"
+msgstr "<strong>Importowano ustawienia!</strong>"
+
+#: ../proton/admin/ReduxCore/framework.php:1802
+#, fuzzy
+msgid "Settings Saved!"
+msgstr " – ustawienia zapisano"
+
+#: ../proton/admin/ReduxCore/framework.php:1806
+#, fuzzy
+msgid "Settings have changed, you should save them!"
+msgstr "<strong>Ustawienia uległy zmianie! Powinieneś je zapisać!</strong>"
+
+#: ../proton/admin/ReduxCore/framework.php:1807
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1808
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1937
+msgid "Import / Export Options"
+msgstr "Opcje Importu/Eksportu"
+
+#: ../proton/admin/ReduxCore/framework.php:1938
+msgid "Import Options"
+msgstr "Importuj ustawienia"
+
+#: ../proton/admin/ReduxCore/framework.php:1939
+msgid "Import from file"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1939
+msgid "Import from URL"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1944
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1954
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1961
+msgid "Import"
+msgstr "Import"
+
+#: ../proton/admin/ReduxCore/framework.php:1961
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1964
+msgid "Export Options"
+msgstr "Exportuj ustawienia"
+
+#: ../proton/admin/ReduxCore/framework.php:1966
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1970
+msgid "Copy"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1970
+msgid "Download"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1970
+msgid "Copy Link"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/framework.php:1993
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/extension_edd.php:77
+#: ../proton/admin/ReduxCore/extensions/edd/extension_edd.php:119
+#: ../proton/admin/ReduxCore/extensions/edd/extension_edd.php:176
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:116
+msgid "Valid"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/extension_edd.php:170
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:110
+msgid "Not Activated"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/extension_edd.php:173
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:114
+msgid "Deactivated"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/extension_edd.php:179
+msgid "Not Valid"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:112
+#, php-format
+msgid "%1$s License Key"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:218
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:142
+msgid "Deactivate License"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/EDD_SL_Theme_Updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:123
+msgid "License Status"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:132
+msgid "Verify License"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:137
+msgid "Activate License"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/tracking.php:59
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/tracking.php:60
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage "
+"stats so we know which configurations, plugins and themes to test with."
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/tracking.php:65
+msgid "Allow tracking"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/tracking.php:70
+msgid "Do not allow tracking"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/border/field_border.php:112
+#: ../proton/admin/ReduxCore/inc/fields/spacing/field_spacing.php:125
+#, fuzzy
+msgid "All"
+msgstr "Całodniowy"
+
+#: ../proton/admin/ReduxCore/inc/fields/border/field_border.php:125
+#: ../proton/admin/ReduxCore/inc/fields/spacing/field_spacing.php:149
+msgid "Top"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/border/field_border.php:132
+#: ../proton/admin/ReduxCore/inc/fields/spacing/field_spacing.php:156
+msgid "Right"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/border/field_border.php:139
+#: ../proton/admin/ReduxCore/inc/fields/spacing/field_spacing.php:163
+msgid "Bottom"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/border/field_border.php:146
+#: ../proton/admin/ReduxCore/inc/fields/spacing/field_spacing.php:170
+msgid "Left"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/border/field_border.php:162
+msgid "Border style"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/color/field_color.php:72
+#: ../proton/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:81
+#: ../proton/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+#: ../proton/admin/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:84
+#, fuzzy
+msgid "Transparent"
+msgstr "Tłumaczenia"
+
+#: ../proton/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:73
+#, fuzzy
+msgid "From "
+msgstr "Od:"
+
+#: ../proton/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:84
+msgid "To "
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:139
+msgid "Width"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:155
+msgid "height"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:168
+#: ../proton/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:169
+#: ../proton/admin/ReduxCore/inc/fields/spacing/field_spacing.php:181
+#: ../proton/admin/ReduxCore/inc/fields/spacing/field_spacing.php:182
+msgid "Units"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/gallery/field_gallery.php:78
+msgid "Clear Gallery"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/group/field_group.php:71
+msgid "New"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/group/field_group.php:84
+#, fuzzy
+msgid "New "
+msgstr "Nowe wydarzenie"
+
+#: ../proton/admin/ReduxCore/inc/fields/group/field_group.php:133
+#: ../proton/admin/ReduxCore/inc/fields/group/field_group.php:198
+msgid "Delete"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/group/field_group.php:203
+msgid "Add"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/link_color/field_link_color.php:86
+msgid "Regular"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/link_color/field_link_color.php:90
+msgid "Hover"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/link_color/field_link_color.php:94
+msgid "Visited"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/link_color/field_link_color.php:98
+msgid "Active"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/media/field_media.php:116
+msgid "No media selected"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/media/field_media.php:150
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:117
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:180
+msgid "Upload"
+msgstr "Wyślij"
+
+#: ../proton/admin/ReduxCore/inc/fields/media/field_media.php:156
+#: ../proton/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:75
+#: ../proton/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:78
+#: ../proton/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:81
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:123
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:182
+#: ../proton/classes/class.proton.menu.adminwalker.php:200
+#: ../proton/fields/multitext/proton.meta.multitext.php:35
+#: ../proton/fields/multitext/proton.meta.multitext.php:42
+#: ../proton/fields/multitext/proton.meta.multitext.php:46
+#: ../proton/fields/multitextarea/proton.meta.multitextarea.php:35
+#: ../proton/fields/multitextarea/proton.meta.multitextarea.php:42
+#: ../proton/fields/multitextarea/proton.meta.multitextarea.php:46
+msgid "Remove"
+msgstr "Usuń"
+
+#: ../proton/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:65
+#: ../proton/fields/multitext/proton.meta.multitext.php:50
+#: ../proton/fields/multitextarea/proton.meta.multitextarea.php:50
+msgid "Add More"
+msgstr "Dodaj więcej"
+
+#: ../proton/admin/ReduxCore/inc/fields/password/field_password.php:55
+msgid "Password"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/password/field_password.php:56
+msgid "Username"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/select/field_select.php:69
+#: ../proton/admin/ReduxCore/inc/fields/select_image/field_select_image.php:59
+#, fuzzy
+msgid "Select an item"
+msgstr "Wybierz stronę:"
+
+#: ../proton/admin/ReduxCore/inc/fields/select/field_select.php:110
+#: ../proton/admin/ReduxCore/inc/fields/select_image/field_select_image.php:134
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:129
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:189
+#: ../proton/classes/class.proton.menu.adminwalker.php:165
+msgid "Description"
+msgstr "Opis"
+
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:130
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:191
+#: ../proton/classes/class.proton.menu.adminwalker.php:128
+msgid "URL"
+msgstr "Adres URL"
+
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:138
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:200
+#, fuzzy
+msgid "Select an Option"
+msgstr "Wybierz stronę:"
+
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:158
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:220
+msgid "Delete Slide"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/slides/field_slides.php:223
+msgid "Add Slide"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:109
+msgid "Font family"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:150
+#, fuzzy
+msgid "Standard Fonts"
+msgstr "Opcje kalendarza"
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:186
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:190
+msgid "Font style"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:190
+msgid "Style"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:216
+msgid "Font subsets"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:217
+msgid "Subsets"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:217
+msgid "Font script"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:235
+msgid "Size"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:244
+msgid "Height"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:252
+msgid "Word Spacing"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:260
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:274
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:294
+msgid "Font color"
+msgstr ""
+
+#: ../proton/admin/ReduxCore/inc/fields/typography/field_typography.php:590
+#, fuzzy
+msgid "Google Webfonts"
+msgstr "Autentykacja Google"
+
+#: ../proton/admin/ReduxCore/inc/validation/color/validation_color.php:15
+#: ../proton/admin/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:15
+#: ../proton/admin/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:15
+msgid "This field must be a valid color value."
+msgstr "Wprowadź prawidłową wartość koloru."
+
+#: ../proton/admin/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:15
+#, fuzzy
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr "Wprowadź wartości liczbowe, oddzielone przecinkami."
+
+#: ../proton/admin/ReduxCore/inc/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr "Wprowadź prawidłowa datę."
+
+#: ../proton/admin/ReduxCore/inc/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr "Wprowadź prawidłowy adres email."
+
+#: ../proton/admin/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr "Nie możesz używac kody HTML. Wszystkie tagi HTML zostały usunięte."
+
+#: ../proton/admin/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+"Nie możesz używac znaków specjalnych. Wszystkie znaki specjalne zostały "
+"usunięte."
+
+#: ../proton/admin/ReduxCore/inc/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr "Wprowadź wartość liczbową."
+
+#: ../proton/admin/ReduxCore/inc/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr "Wprowadź prawidłowy adres www."
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:70
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (błędne)"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:74
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Oczekuje)"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:87
+msgid "sub item"
+msgstr ""
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:119
+msgid "Edit Menu Item"
+msgstr "Edytuj pozycję menu"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:135
+msgid "Navigation Label"
+msgstr "Nawigacja"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:141
+msgid "Title Attribute"
+msgstr "Tytuł"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:148
+msgid "Open link in a new window/tab"
+msgstr "Otwórz link w nowym oknie/zakładce"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:153
+msgid "CSS Classes (optional)"
+msgstr "Klassy CSS (opcjonalne)"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:159
+msgid "Link Relationship (XFN)"
+msgstr "Powiązania"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:167
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr "Opis zostanie wyświetlony w menu, jeżeli templatka obsługuje tę opcję."
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:173
+msgid "Move"
+msgstr ""
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:174
+msgid "Up one"
+msgstr ""
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:175
+msgid "Down one"
+msgstr ""
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:178
+msgid "To the top"
+msgstr ""
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:187
+#, php-format
+msgid "Original: %s"
+msgstr "Oryginalny: %s"
+
+#: ../proton/classes/class.proton.menu.adminwalker.php:201
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: ../proton/classes/class.proton.meta.php:302
+msgid "Proton Custom Settings"
+msgstr "Proton – ustawienia"
+
+#: ../proton/classes/class.proton.meta.php:315
+#: ../proton/classes/class.proton.meta.php:316
+#, php-format
+msgid "%s Custom Settings"
+msgstr "%s ustawienia"
+
+#: ../proton/extensions/galeria.php:7
+msgid "Galerie"
+msgstr ""
+
+#: ../proton/extensions/galeria.php:8
+msgid "Galeria"
+msgstr ""
+
+#: ../proton/extensions/galeria.php:9
+msgid "Dodaj nową"
+msgstr ""
+
+#: ../proton/extensions/galeria.php:10
+msgid "Dodaj nową galerię"
+msgstr ""
+
+#: ../proton/extensions/galeria.php:11
+msgid "Edytuj galerię"
+msgstr ""
+
+#: ../proton/extensions/galeria.php:12
+msgid "Nowa galeria"
+msgstr ""
+
+#: ../proton/extensions/galeria.php:13
+msgid "Wszystkie galerie"
+msgstr ""
+
+#: ../proton/extensions/galeria.php:14
+msgid "Zobacz galerię"
+msgstr ""
+
+#: ../proton/extensions/galeria.php:15
+msgid "Przeszukuj galeria"
+msgstr ""
+
+#: ../proton/extensions/proton.navigation.php:20
+#, fuzzy
+msgid "Prev"
+msgstr "Poprzedni"
+
+#: ../proton/extensions/proton.navigation.php:58
+msgid "Next"
+msgstr "Dalej"
+
+#: ../proton/extensions/proton.navigation.php:67
+msgid "You are here:"
+msgstr "Jesteś tutaj:"
+
+#: ../proton/extensions/proton.seo.php:29
+#, php-format
+msgid "Page %s"
+msgstr "Strona %s"
+
+#: ../proton/extensions/proton.seo.php:84
+msgid "SEO Title:"
+msgstr "Tytuł SEO:"
+
+#: ../proton/extensions/proton.seo.php:86
+msgid "Put new webpage title"
+msgstr "Podaj nowy tytuł strony"
+
+#: ../proton/extensions/proton.seo.php:91
+msgid "META keyword:"
+msgstr "Meta słowa kluczowe:"
+
+#: ../proton/extensions/proton.seo.php:93
+msgid "Put in webpage META keywords"
+msgstr "Wpisz słowa kluczowe strony"
+
+#: ../proton/extensions/proton.seo.php:98
+msgid "META description:"
+msgstr "Meta opis:"
+
+#: ../proton/extensions/proton.seo.php:100
+msgid "Put in webpage META description"
+msgstr "Wpisz opis strony"
+
+#: ../proton/extensions/proton.seo.php:111
+msgid "SEO"
+msgstr "SEO"
+
+#: ../proton/extensions/proton.seo.php:112
+msgid ""
+"<p class=\"description\">Here You can change your global SEO settings.</p>"
+msgstr ""
+"<p class=\"description\">Tutaj możesz zmienić globalne ustawienia SEO.</p>"
+
+#: ../proton/extensions/proton.seo.php:122
+msgid "Google auth"
+msgstr "Autentykacja Google"
+
+#: ../proton/extensions/proton.seo.php:123
+#: ../proton/extensions/proton.seo.php:124
+msgid "Paste Google authentication key"
+msgstr "Wklej klucz autentykacji Google"
+
+#: ../proton/extensions/proton.seo.php:134
+msgid "Global Keywords"
+msgstr "Globalne słowa kluczowe"
+
+#: ../proton/extensions/proton.seo.php:135
+#: ../proton/extensions/proton.seo.php:136
+msgid "Write your website keywords"
+msgstr "Wpisz słowa kluczowe strony"
+
+#: ../proton/extensions/proton.seo.php:145
+msgid "Global description"
+msgstr "Globalny opis"
+
+#: ../proton/extensions/proton.seo.php:146
+#: ../proton/extensions/proton.seo.php:147
+msgid "Write your website description"
+msgstr "Wpisz opis strony"
+
+#: ../proton/extensions/proton.seo.php:155
+#: ../proton/extensions/proton.seo.php:156
+msgid "Paste Google Analytics (or other) tracking code here."
+msgstr "Wklej kod Google Analytics lub inny."
+
+#: ../proton/extensions/ajaxedsearch/ajaxedsearchresult.php:68
+msgid "More results"
+msgstr "Więcej wyników"
+
+#: ../proton/extensions/eventbooking/eventbooking.php:61
+msgid "Hours"
+msgstr "Godziny"
+
+#: ../proton/extensions/eventbooking/eventbooking.php:64
+#: ../proton/extensions/eventbooking/hours.php:34
+msgid "Pick date"
+msgstr "Wybierz datę"
+
+#: ../proton/extensions/eventbooking/eventbooking.php:71
+#: ../proton/extensions/eventbooking/eventbooking.php:73
+#: ../proton/extensions/eventbooking/eventbooking.php:75
+msgid "(required)"
+msgstr "(wymagane)"
+
+#: ../proton/extensions/eventbooking/eventbooking.php:75
+msgid "Phone"
+msgstr "Telefon"
+
+#: ../proton/extensions/eventbooking/eventbooking.php:77
+msgid "Message"
+msgstr "Wiadomość"
+
+#: ../proton/extensions/eventbooking/eventbooking.php:82
+msgid "Send"
+msgstr "Wyślij"
+
+#: ../proton/extensions/eventbooking/hours.php:20
+msgid "Nothing available"
+msgstr "Brak terminów"
+
+#: ../proton/extensions/eventbooking/results.php:9
+msgid "Invalid captcha"
+msgstr "Błędna captcha"
+
+#: ../proton/extensions/eventbooking/results.php:11
+msgid "Valid captcha"
+msgstr "Poprawna captcha"
+
+#: ../proton/fields/gallery/proton.meta.gallery.php:40
+#: ../proton/fields/upload/proton.meta.upload.php:42
+msgid "Insert"
+msgstr "Dodaj"
+
+#: ../proton/fields/gallery/proton.meta.gallery.php:41
+msgid "Remove all"
+msgstr "Usuń wszystko"
+
+#: ../proton/fields/timestamp/proton.meta.timestamp.php:17
+msgid "@"
+msgstr "@"
+
+#: ../proton/fields/upload/proton.meta.upload.php:63
+msgid "View File"
+msgstr "Zobacz plik"
+
+#: ../proton/functions/proton.other.php:52
+msgid "Continue Reading"
+msgstr "Czytaj dalej"
+
+#: ../proton/functions/proton.other.php:59
+msgid "ago"
+msgstr "temu"
+
+#: ../proton/functions/proton.other.php:126
+msgid "All Options"
+msgstr "Wszystkie opcje"
+
+#: ../proton/functions/proton.sidebar.php:22
+msgid "Normal full width Sidebar"
+msgstr "Normalny panel boczny"
+
+#: ../proton/functions/proton.thumbnails.php:18
+#: ../proton/functions/proton.thumbnails.php:20
+#: ../proton/functions/proton.thumbnails.php:40
+#: ../proton/functions/proton.thumbnails.php:43
+msgid "Post thumbnail"
+msgstr "Miniaturka wpisu"
+
+#~ msgid "Secondary menu"
+#~ msgstr "Dodatkowe menu"
+
+#~ msgid "Proton"
+#~ msgstr "Proton"
+
+#~ msgid "Dev Mode Info"
+#~ msgstr "Informacje developerskie"
+
+#~ msgid "Reset to Defaults"
+#~ msgstr "Resetuj  ustawienia"
+
+#~ msgid "<strong>Settings Saved!</strong>"
+#~ msgstr "<strong>Ustawienia zapisano!</strong>"
+
+#~ msgid "<strong><span></span> error(s) were found!</strong>"
+#~ msgstr "<strong><span></span> błędy!</strong>"
+
+#~ msgid "<strong><span></span> warning(s) were found!</strong>"
+#~ msgstr "<strong><span></span> ostrzeżeń!</strong>"
+
+#~ msgid " To:"
+#~ msgstr "Do:"
+
+#~ msgid "Browse"
+#~ msgstr "Przeglądaj"
+
+#~ msgid "Remove Upload"
+#~ msgstr "Usuń"
+
+#~ msgid "First"
+#~ msgstr "Pierwszy"
+
+#~ msgid "Last"
+#~ msgstr "Ostatni"
+
+#~ msgid "Calendar"
+#~ msgstr "Harmonogram"
+
+#~ msgid "Event"
+#~ msgstr "Wydarzenie"
+
+#~ msgid "Add event"
+#~ msgstr "Dodaj wydarzenie"
+
+#~ msgid "Add new event"
+#~ msgstr "Dodaj nowe wydarzenie"
+
+#~ msgid "Edit event"
+#~ msgstr "Edytuj wydarzenie"
+
+#~ msgid "View event"
+#~ msgstr "Zobacz wydarzenie"
+
+#~ msgid "Search event"
+#~ msgstr "Szukaj wydarzenia"
+
+#~ msgid "Not found"
+#~ msgstr "Nie znaleziono"
+
+#~ msgid "Empty"
+#~ msgstr "Pusty"
+
+#~ msgid "Event Calendar"
+#~ msgstr "Harmonogram"
+
+#~ msgid "Set default calendar view"
+#~ msgstr "Ustaw widok domyślny"
+
+#~ msgid "Left elements"
+#~ msgstr "Elementy po lewej stronie:"
+
+#~ msgid "Decide what left-side buttons to display."
+#~ msgstr "Zdecyduj jakie elementy maja zostać wyświetlone."
+
+#~ msgid "Center elements"
+#~ msgstr "Elementy po środku:"
+
+#~ msgid "Decide what center buttons to display."
+#~ msgstr "Zdecyduj jakie elementy maja zostać wyświetlone."
+
+#~ msgid "Right elements"
+#~ msgstr "Elementy po prawej stronie:"
+
+#~ msgid "Decide what right-side buttons to display."
+#~ msgstr "Zdecyduj jakie elementy maja zostać wyświetlone."
+
+#~ msgid "Initial date:"
+#~ msgstr "Data startu:"
+
+#~ msgid "The initial date-of-month when the calendar loads."
+#~ msgstr "Dzień miesiąca, wyświetlany podczas startu kalendarza."
+
+#~ msgid "Initial month:"
+#~ msgstr "Miesiąc startowy:"
+
+#~ msgid "The initial month when the calendar loads."
+#~ msgstr "Miesiąc wyświetlany podczas startu kalendarza."
+
+#~ msgid "Initial year:"
+#~ msgstr "Rok startowy:"
+
+#~ msgid "The initial year when the calendar loads."
+#~ msgstr "Rok wyświetlany podczas startu kalendarza."
+
+#~ msgid "Minimum time:"
+#~ msgstr "Minimalna godzina:"
+
+#~ msgid "Determines the first hour/time that will be displayed."
+#~ msgstr "Ustala minimalną godzinę widoczną w harmonogramie."
+
+#~ msgid "Maximum time:"
+#~ msgstr "Maksymalna godzina:"
+
+#~ msgid "Determines the last hour/time (exclusively) that will be displayed."
+#~ msgstr "Ustala maksymalną godzine widoczna w harmonogramie."
+
+#~ msgid "First hour:"
+#~ msgstr "Godzina startowa:"
+
+#~ msgid "Determines the first hour that will be visible in the scroll pane."
+#~ msgstr "Ustala pierwszą godzinę widoczną w panelu harmonogramu."
+
+#~ msgid "Time slots:"
+#~ msgstr "Przedziały czasowe:"
+
+#~ msgid "The frequency for displaying time slots, in minutes."
+#~ msgstr "Ustala przedziały czasu harmonogramu."
+
+#~ msgid "Week start day:"
+#~ msgstr "Dzień rozpoczęcia tygodnia:"
+
+#~ msgid "The day that each week begins."
+#~ msgstr "Dzień rozpoczęcia tygodnia."
+
+#~ msgid "All day slot text:"
+#~ msgstr "Tytuł działu \"całodniowe\":"
+
+#~ msgid "The text titling the \"all-day\" slot at the top of the calendar."
+#~ msgstr "Tytuł działu \"całodniowego\"."
+
+#~ msgid "Vertical axis time format:"
+#~ msgstr "Format czasu dla podziałki pionowe:"
+
+#~ msgid ""
+#~ "Determines the time-text that will be displayed on the vertical axis of "
+#~ "the agenda views."
+#~ msgstr ""
+#~ "Ustala format czasu wyświetlanego na pionowej podziałce harmonogramu."
+
+#~ msgid "Event time format:"
+#~ msgstr "Format czasu wydarzeń:"
+
+#~ msgid "Determines the time-text that will be displayed on each event."
+#~ msgstr "Ustala format wyświetlania czasu przy poszczególnych wydarzeniach."
+
+#~ msgid "Agenda time format:"
+#~ msgstr "Format czasu wydarzeń w harmonogramie:"
+
+#~ msgid ""
+#~ "Determines the time-text that will be displayed on each event in agenda "
+#~ "view."
+#~ msgstr ""
+#~ "Ustala format wyświetlania czasu przy poszczególnych wydarzeniach w "
+#~ "harmonogramie."
+
+#~ msgid "All fields below are for translation purposes"
+#~ msgstr "Pola poniżej dotyczą tłumaczeń"
+
+#~ msgid "Today button:"
+#~ msgstr "Przycisk \"dziś\":"
+
+#~ msgid "Put in the correct translation"
+#~ msgstr "Wprowadź tłumaczenie lub dowolny tekst."
+
+#~ msgid "Month button:"
+#~ msgstr "Przycisk miesiąca:"
+
+#~ msgid "Week button:"
+#~ msgstr "Przycisk tygodnia:"
+
+#~ msgid "Day button:"
+#~ msgstr "Przycisk dnia:"
+
+#~ msgid "Calendar settings"
+#~ msgstr "Ustawienia wydarzenia"
+
+#~ msgid "All day event"
+#~ msgstr "Wydarzenie całodniowe"
+
+#~ msgid "Start date"
+#~ msgstr "Data startu"
+
+#~ msgid "Pick start date"
+#~ msgstr "Wybierz datę startu"
+
+#~ msgid "Start hour"
+#~ msgstr "Godzina startu"
+
+#~ msgid "Pick event start hour"
+#~ msgstr "Wybierz godzinę startu"
+
+#~ msgid "End date"
+#~ msgstr "Data zakończenia"
+
+#~ msgid "Pick event ending date"
+#~ msgstr "Wybierz datę zakończenia"
+
+#~ msgid "Ending hour"
+#~ msgstr "Godzina zakończenia"
+
+#~ msgid "Pick event ending hour"
+#~ msgstr "Wybierz godzinę zakończenia"
+
+#~ msgid "Repeating event"
+#~ msgstr "Wydarzenie cykliczne"
+
+#~ msgid "Pick repeating frequency"
+#~ msgstr "Wybierz wydarzenie cykliczne"
+
+#~ msgid "Daily"
+#~ msgstr "Dziennie"
+
+#~ msgid "Weekly"
+#~ msgstr "Tygodniowo"
+
+#~ msgid "Monthly"
+#~ msgstr "Miesięcznie"
+
+#~ msgid "Yearly"
+#~ msgstr "Rocznie"
+
+#~ msgid "Repeating count"
+#~ msgstr "Ilość powtórzeń"
+
+#~ msgid "Put event repeating count"
+#~ msgstr "Wpisz liczbę powtórzeń"
+
+#~ msgid "January"
+#~ msgstr "Styczeń"
+
+#~ msgid "February"
+#~ msgstr "Luty"
+
+#~ msgid "March"
+#~ msgstr "Marzec"
+
+#~ msgid "April"
+#~ msgstr "Kwiecień"
+
+#~ msgid "May"
+#~ msgstr "Maj"
+
+#~ msgid "June"
+#~ msgstr "Czerwiec"
+
+#~ msgid "July"
+#~ msgstr "Lipiec"
+
+#~ msgid "August"
+#~ msgstr "Sierpień"
+
+#~ msgid "September"
+#~ msgstr "Wrzesień"
+
+#~ msgid "October"
+#~ msgstr "Październik"
+
+#~ msgid "November"
+#~ msgstr "Listopad"
+
+#~ msgid "December"
+#~ msgstr "Grudzień"
+
+#~ msgid "Jan"
+#~ msgstr "Sty"
+
+#~ msgid "Feb"
+#~ msgstr "Lut"
+
+#~ msgid "Mar"
+#~ msgstr "Mar"
+
+#~ msgid "Apr"
+#~ msgstr "Kwi"
+
+#~ msgid "Jun"
+#~ msgstr "Cze"
+
+#~ msgid "Jul"
+#~ msgstr "Lip"
+
+#~ msgid "Aug"
+#~ msgstr "Sie"
+
+#~ msgid "Sep"
+#~ msgstr "Wrz"
+
+#~ msgid "Oct"
+#~ msgstr "Paź"
+
+#~ msgid "Nov"
+#~ msgstr "Lis"
+
+#~ msgid "Dec"
+#~ msgstr "Gru"
+
+#~ msgid "Sunday"
+#~ msgstr "Niedziela"
+
+#~ msgid "Monday"
+#~ msgstr "Poniedziałek"
+
+#~ msgid "Tuesday"
+#~ msgstr "Wtorek"
+
+#~ msgid "Wednesday"
+#~ msgstr "Środa"
+
+#~ msgid "Thursday"
+#~ msgstr "Czwartek"
+
+#~ msgid "Friday"
+#~ msgstr "Piątek"
+
+#~ msgid "Saturday"
+#~ msgstr "Sobota"
+
+#~ msgid "Sun"
+#~ msgstr "Nie"
+
+#~ msgid "Mon"
+#~ msgstr "Pon"
+
+#~ msgid "Tue"
+#~ msgstr "Wto"
+
+#~ msgid "Wed"
+#~ msgstr "Śro"
+
+#~ msgid "Thu"
+#~ msgstr "Czw"
+
+#~ msgid "Fri"
+#~ msgstr "Pią"
+
+#~ msgid "Sat"
+#~ msgstr "Sob"
+
+#~ msgid "FORUM TOPICS:"
+#~ msgstr "TEMATY NA FORUM:"
+
+#~ msgid "Latest articles"
+#~ msgstr "Najnowsze artykuły"
+
+#~ msgid "Comments:"
+#~ msgstr "Komentarze:"
+
+#~ msgid "Published"
+#~ msgstr "Opublikowano"
+
+#~ msgid "Attention"
+#~ msgstr "Uwaga"
+
+#~ msgid ""
+#~ "This is a callout box. This can be used to inform your clients about "
+#~ "something important."
+#~ msgstr ""
+#~ "To jest pole powiadomień. Możesz użyć tego pola aby informować klientów o "
+#~ "czymś ważnym."
+
+#~ msgid "This is an image upload field."
+#~ msgstr "To to jest pole przesyłania zdjęcia na serwer."
+
+#~ msgid "This is a checkbox."
+#~ msgstr "To jest checkbox."
+
+#~ msgid "Dropdown List"
+#~ msgstr "Rozwijana lista"
+
+#~ msgid "This is a dropdown list."
+#~ msgstr "To jest rozwijana lista."
+
+#~ msgid "These are radio buttons."
+#~ msgstr "To są przyciski radio"
+
+#~ msgid "Image Radio Buttons"
+#~ msgstr "Obrazkowe przyciski radio"
+
+#~ msgid "Spice up your radio buttons by using custom images."
+#~ msgstr "Podrasuj kontrolki dodając obrazki."
+
+#~ msgid "Color Picker"
+#~ msgstr "Paleta barw"
+
+#~ msgid "This is a color picker."
+#~ msgstr "To jest paleta barw."
+
+#~ msgid "Wordpress Page"
+#~ msgstr "Strona wordpressa"
+
+#~ msgid "This displays a list of every page on your website."
+#~ msgstr "Wyświetla liste wszyskich stron."
+
+#~ msgid "Wordpress Category"
+#~ msgstr "Kategoria wordpressa"
+
+#~ msgid "This displays a list of every category on your website."
+#~ msgstr "Wyświetla liste wszystkich kategorii."
+
+#~ msgid "Activation Successful!"
+#~ msgstr "Aktywowano!"
+
+#~ msgid "This theme's settings are located under"
+#~ msgstr "Ustawienia templatki znajdują się poniżej"
+
+#~ msgid "Appearance > Site Options"
+#~ msgstr "Wygląd > Opcje strony"
+
+#~ msgid "CAUTION: Any and all settings will be lost! Click OK to reset."
+#~ msgstr ""
+#~ "UWAGA: Wszystkie ustawienia zostaną wymazane! Kliknij OK aby zresetować."
+
+#~ msgid "Upload Image"
+#~ msgstr "Wyślij plik"
+
+#~ msgid "temu"
+#~ msgstr "ago"
+
+#~ msgid "Więcej wyników"
+#~ msgstr "More"

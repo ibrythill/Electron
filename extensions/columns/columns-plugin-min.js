@@ -1,0 +1,1 @@
+tinymce.create("tinymce.plugins.columns",{init:function(n,i){n.addButton("columns",{title:"Add full width columns",image:i+"/columns-icon.png",onclick:function(){n.windowManager.open({file:i+"/columns-window.php",width:680,height:480,inline:1})}})},createControl:function(n,i){return null}}),tinymce.PluginManager.add("columns",tinymce.plugins.columns);

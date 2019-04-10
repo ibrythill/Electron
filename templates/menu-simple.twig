@@ -1,0 +1,26 @@
+{% if menu %}
+	<ul class="electron-simplemenu">
+	{% for depth0 in menu %}
+		<li class="{{ depth0.classes | join(' ') }} pmm_on_hover">
+			<a target="{{ depth0.target }}" href="{{ depth0.link }}">{{ depth0.title }}</a>
+			{% if depth0.get_children %}
+				<div class="pmm_container depth0_container pmm_open_n">
+					{% for depth1 in depth0.get_children %}
+						<div class="{{ depth1.classes | join(' ') }} pmm_column {% if depth1.get_children  %}self_strech{% endif %}">
+							<a target="{{ depth1.target }}" href="{{ depth1.link }}">
+								{% if depth1.get_children and function('get_post_thumbnail_id', depth1._menu_item_object_id)  %}
+									<picture>
+										<img src="{{Image(function('get_post_thumbnail_id', depth1._menu_item_object_id)).src|resize(320, 150)}}" />
+									</picture>
+								{% endif %}
+								{% if depth1.get_children %}<div class="pmm_header"><h3>{{ depth1.title }}</h3><span class="pmm_sep_holder"><span class="pmm_sep_line"></span></span></div>{% else %}<div class="pmm_header">{{ depth1.title }}</div>{% endif %}
+							</a>
+							{% include "menu.twig" with {'menu': depth1.get_children} %}
+						</div>
+					{% endfor %}
+				</div>
+			{% endif %}
+		</li>
+	{% endfor %}
+	</ul>
+{% endif %}

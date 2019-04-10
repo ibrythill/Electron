@@ -1,0 +1,22 @@
+<section id="headerimg" style="height:{{eih_height}}px">
+	<div class="container {% if eih_class %}{{eih_class}}{% endif %}">
+		<div class="row middle-xs">
+			<div class="col-xs-12" style="height:{{eih_height}}px">
+				{% if content %}
+					{{content}}
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+	<div class="slide">
+		{% if eih_img %}
+			{% set eih_img_url = Image(eih_img).src %}
+			{% set eih_sizes = eih_breakpoints %}
+		{% elseif post.get_thumbnail %}
+			{% set eih_img_url = post.thumbnail.src %}
+			{% set eih_sizes = img_sizes.header_image %}
+		{% endif %}
+			{% include "image.twig" with {'images': eih_sizes, 'thumbnail': {'src': eih_img_url, 'width': 1920, 'height': 800 }} only %}
+	</div>
+</section>

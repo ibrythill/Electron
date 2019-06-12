@@ -309,7 +309,7 @@ add_action( 'wp_enqueue_scripts', 'pmm_enqueue', 5 );
  */
 function pmm_enqueue() {
 	//css
-	$git_path = '//cdn.jsdelivr.net/gh/ibrythill/Electron/';
+	$git_path = '//cdn.jsdelivr.net/gh/ibrythill/Electron@latest/';
 	wp_register_style( 'electron_megamenu', $git_path . 'assets/css/proton_megamenu.css', false, ELECTRON_VERSION);
 	//wp_enqueue_style('electron_megamenu');
 

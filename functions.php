@@ -225,7 +225,7 @@ if ( ! function_exists ( 'category_id_class' ) ) {
 if ( ! function_exists ( 'electron_enqueue_scripts' ) ) {
 	add_action( 'wp_enqueue_scripts', 'electron_enqueue_scripts',  99);
 	function electron_enqueue_scripts() {
-		$git_path = '//cdn.jsdelivr.net/gh/ibrythill/Electron/';
+		$git_path = '//cdn.jsdelivr.net/gh/ibrythill/Electron@latest/';
 		wp_enqueue_style( 'electron-style', THEME_URL.'assets/css/electron.css', array(), ELECTRON_VERSION );
 		if(is_child_theme()){ wp_enqueue_style( 'electron-child-style', get_stylesheet_uri(), array('electron-style'), ELECTRON_VERSION ); }
 		else{electron_enqueue_style( 'electron-theme', THEME_URL.'assets/css/base.css', 1);}

@@ -138,6 +138,9 @@ class Core{
 		require_once( ELECTRON_INC . 'functions-wpbakery.php' );
 
 
+		require_once( ELECTRON_INC . 'external/simple_html_dom.php' );
+
+
 		if(in_array($GLOBALS['pagenow'], array('wp-login.php', 'wp-register.php'))){
 			require_if_theme_supports( 'electron-theme-login', trailingslashit(ELECTRON_DIR).'admin/login.php');
 		}

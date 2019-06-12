@@ -1,37 +1,39 @@
 <?php
+$git_path = '//cdn.jsdelivr.net/gh/ibrythill/Electron/';
+
 function load_assets_oferta_container(){
 	//wp_enqueue_style( 'oferta_container-style', get_stylesheet_directory_uri().'/assets/css/shortcodes/oferta_container.css', array(), ELECTRON_VERSION );
-	electron_enqueue_style( 'oferta_container-style', 	get_stylesheet_directory_uri() . '/assets/css/shortcodes/oferta_container.css', 2);
+	electron_enqueue_style( 'oferta_container-style', 	$git_path . '/assets/css/shortcodes/oferta_container.css', 2);
 }
 add_action('electron/shortcode/oferta_container', 'load_assets_oferta_container');
 
 function load_assets_oferta_single(){
 	//wp_enqueue_style( 'oferta_single-style', get_stylesheet_directory_uri().'/assets/css/shortcodes/oferta_single.css', array(), ELECTRON_VERSION );
-	electron_enqueue_style( 'oferta_single-style', 	get_stylesheet_directory_uri() . '/assets/css/shortcodes/oferta_single.css', 2);
+	electron_enqueue_style( 'oferta_single-style', 	$git_path . '/assets/css/shortcodes/oferta_single.css', 2);
 }
 add_action('electron/shortcode/oferta_single', 'load_assets_oferta_single');
 
 function load_assets_oferta_single2(){
 	//wp_enqueue_style( 'oferta_single2-style', get_stylesheet_directory_uri().'/assets/css/shortcodes/oferta_single2.css', array(), ELECTRON_VERSION );
-	electron_enqueue_style( 'oferta_single2-style', 	get_stylesheet_directory_uri() . '/assets/css/shortcodes/oferta_single2.css', 2);
+	electron_enqueue_style( 'oferta_single2-style', 	$git_path . '/assets/css/shortcodes/oferta_single2.css', 2);
 }
 add_action('electron/shortcode/oferta_single2', 'load_assets_oferta_single2');
 
 function load_assets_staff_single(){
 	//wp_enqueue_style( 'oferta_single-style', get_stylesheet_directory_uri().'/assets/css/shortcodes/oferta_single.css', array(), ELECTRON_VERSION );
-	electron_enqueue_style( 'oferta_single-style', 	get_stylesheet_directory_uri() . '/assets/css/shortcodes/oferta_single.css', 2);
+	electron_enqueue_style( 'oferta_single-style', 	$git_path . '/assets/css/shortcodes/oferta_single.css', 2);
 }
 add_action('electron/shortcode/staff_single', 'load_assets_staff_single');
 
 function load_assets_ec_icon_box(){
 	//wp_enqueue_style( 'ec_icon_box-style', get_stylesheet_directory_uri().'/assets/css/shortcodes/ec_icon_box.css', array(), ELECTRON_VERSION );
-	electron_enqueue_style( 'ec_icon_box-style', 	get_stylesheet_directory_uri() . '/assets/css/shortcodes/ec_icon_box.css', 2);
+	electron_enqueue_style( 'ec_icon_box-style', 	$git_path . '/assets/css/shortcodes/ec_icon_box.css', 2);
 }
 add_action('electron/shortcode/ec_icon_box', 'load_assets_ec_icon_box');
 
 function load_assets_mp_price(){
 	//wp_enqueue_style( 'emp_price-style', get_stylesheet_directory_uri().'/assets/css/shortcodes/mp_price.css', array(), ELECTRON_VERSION );
-	electron_enqueue_style( 'emp_price-style', 	get_stylesheet_directory_uri() . '/assets/css/shortcodes/mp_price.css', 2);
+	electron_enqueue_style( 'emp_price-style', 	$git_path . '/assets/css/shortcodes/mp_price.css', 2);
 }
 add_action('electron/shortcode/mp_price', 'load_assets_mp_price');
 

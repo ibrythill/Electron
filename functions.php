@@ -225,14 +225,14 @@ if ( ! function_exists ( 'category_id_class' ) ) {
 if ( ! function_exists ( 'electron_enqueue_scripts' ) ) {
 	add_action( 'wp_enqueue_scripts', 'electron_enqueue_scripts',  99);
 	function electron_enqueue_scripts() {
-
+		$git_path = '//cdn.jsdelivr.net/gh/ibrythill/Electron/';
 		wp_enqueue_style( 'electron-style', THEME_URL.'assets/css/electron.css', array(), ELECTRON_VERSION );
 		if(is_child_theme()){ wp_enqueue_style( 'electron-child-style', get_stylesheet_uri(), array('electron-style'), ELECTRON_VERSION ); }
 		else{electron_enqueue_style( 'electron-theme', THEME_URL.'assets/css/base.css', 1);}
 
 		electron_enqueue_style( 'fontawesome', 'https://use.fontawesome.com/releases/v5.7.2/css/all.css', 5);
 
-		wp_enqueue_script('electron-init', THEME_URL.'assets/js/electron-init.min.js', array('jquery'), ELECTRON_VERSION);
+		wp_enqueue_script('electron-init', $git_path.'assets/js/electron-init.min.js', array('jquery'), ELECTRON_VERSION);
 
 		//electron_enqueue_style('webfont', THEME_URL.'assets/js/vendor/webfont-min.js', 5);
 
@@ -247,7 +247,7 @@ if ( ! function_exists ( 'electron_enqueue_scripts' ) ) {
 
 		wp_localize_script( 'electron-init', 'electron', $electron_vars);
 
-		electron_enqueue_script('electron_main', THEME_URL.'assets/js/electron.min', 2, false, array('jquery','parallax'));
+		electron_enqueue_script('electron_main', $git_path.'assets/js/electron.min', 2, false, array('jquery','parallax'));
 
 
 		//wp_enqueue_script('webfont-loader', '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js');
@@ -320,9 +320,30 @@ function lazy_image_content_filter($content) {
 
 
   //$content = preg_replace( '/(<\s*img[^>])+class\s*=(\s*"[^"]+)"([^>]+>)/i', '$1 class="lazyload  $3', $content);
-  $content = preg_replace( $pattern, '<img class="$1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="$2" alt="$3" width="$4" height="$5" data-srcset="$6" $7>', $content);
+  //$content = preg_replace( $pattern, '<img class="$1 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="$2" alt="$3" width="$4" height="$5" data-srcset="$6" $7>', $content);
   // otherwise returns the database content
-  return $content;
+  $html = str_get_html($content);
+
+// Find all images
+	//$html->find('div')->class = 'bar';
+	//$html->find('img', 1)->class = 'bar';
+	foreach($html->find('img') as $key => $element){
+		$element->class = $element->class. ' lazyload';
+		$element->setAttribute('data-src', $element->src);
+		$element->setAttribute('data-srcset', $element->srcset);
+		$element->removeAttribute('srcset');
+		$element->src = "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==";
+
+	}
+
+	foreach($html->find('iframe') as $key => $element){
+		$element->class = $element->class. ' lazyload';
+		$element->setAttribute('data-src', $element->src);
+		$element->removeAttribute('src');
+
+	}
+
+  return $html;
 }
 
 add_filter( 'the_content', 'lazy_image_content_filter', 99 );

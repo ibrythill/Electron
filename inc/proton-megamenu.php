@@ -309,7 +309,8 @@ add_action( 'wp_enqueue_scripts', 'pmm_enqueue', 5 );
  */
 function pmm_enqueue() {
 	//css
-	wp_register_style( 'electron_megamenu', ELECTRON_URL . 'assets/css/proton_megamenu.css', false, ELECTRON_VERSION);
+	$git_path = '//cdn.jsdelivr.net/gh/ibrythill/Electron/';
+	wp_register_style( 'electron_megamenu', $git_path . 'assets/css/proton_megamenu.css', false, ELECTRON_VERSION);
 	//wp_enqueue_style('electron_megamenu');
 
 	//JS
@@ -328,15 +329,15 @@ function pmm_enqueue() {
 	//proton_enqueue_script( 'pmm_position', PROTON_EXT_URL . 'megamenu/js/position.min.js', PROTON_VERSION , true );
 	//proton_enqueue_script( 'pmm_hoverintent', PROTON_EXT_URL . 'megamenu/js/jquery.hoverIntent.minified.js', PROTON_VERSION , true );
 	//proton_enqueue_script( 'electron-megamenu', ELECTRON_URL . 'assets/js/electron-megamenu.min.js', ELECTRON_VERSION , true, 2 );
-	electron_register_script('hoverIntent', ELECTRON_URL . 'assets/js/vendor/jquery.hoverIntent.minified', 3, false, array());
-	electron_enqueue_script('electron_megamenu', ELECTRON_URL . 'assets/js/electron-megamenu.min', 3, false, array('jquery','hoverIntent'));
+	electron_register_script('hoverIntent', $git_path . 'assets/js/vendor/jquery.hoverIntent.minified', 3, false, array());
+	electron_enqueue_script('electron_megamenu', $git_path . 'assets/js/electron-megamenu.min', 3, false, array('jquery','hoverIntent'));
 }
 
 # Load megamenu scripts.
 add_action( 'admin_enqueue_scripts', 'pmm_admin_enqueue', 5 );
 function pmm_admin_enqueue() {
 	//wp_register_script( 'proton-megamenu-admin', PROTON_EXT_URL . 'megamenu/js/proton-megamenu-admin.js', array( 'jquery' ), PROTON_VERSION , true );
-	proton_enqueue_script( 'proton-megamenu-admin', ELECTRON_URL . 'assets/js/proton-megamenu-admin.js', ELECTRON_VERSION , true );
+	proton_enqueue_script( 'proton-megamenu-admin', $git_path . 'assets/js/proton-megamenu-admin.js', ELECTRON_VERSION , true );
 }
 
 
